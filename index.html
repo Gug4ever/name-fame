@@ -17,13 +17,13 @@
 <body>
 
 <nav id="nav">
-  <a href="#top" class="nav-logo"><img src="images/logo.png" alt="Name Fame"></a>
+  <a href="#top" class="nav-logo"><img src="images/logo.svg" alt="Name Fame"></a>
   <button id="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
   <div class="nav-links" id="nav-links">
     <a href="#concept">The Series</a>
     <a href="#inside">Inside the Book</a>
     <a href="#symbols">Symbols</a>
-    <a href="#numerology">Numerology</a>
+    <a href="#discover">Discover Your Name</a>
     <a href="#collection">Collection</a>
     <a href="#your-story">Your Story</a>
   </div>
@@ -33,14 +33,14 @@
 <header id="top" class="hero">
   <div class="hero-frame">
     <p class="kicker kicker-gold">An Illustrated Keepsake Series</p>
-    <img class="hero-logo" src="images/logo.png" alt="Name Fame">
+    <img class="hero-logo" src="images/logo.svg" alt="Name Fame">
     <p class="hero-tagline">10&nbsp;Legends&ensp;<span class="diamond">✦</span>&ensp;1&nbsp;Name&ensp;<span class="diamond">✦</span>&ensp;Your&nbsp;Story</p>
     <p class="hero-lead">Every name carries a story — centuries of history, hidden symbols,
     a number written in its letters, and the remarkable lives of those who bore it before.
     <em>Name Fame</em> gathers that story into one beautifully illustrated book.</p>
     <div class="hero-cta">
-      <a class="btn btn-gold" href="#inside">Discover the series</a>
-      <a class="btn btn-ghost" href="#collection">Browse the names</a>
+      <a class="btn btn-gold" href="#discover">Discover your name</a>
+      <a class="btn btn-ghost" href="#inside">Explore the series</a>
     </div>
     <p class="hero-qr">Holding one of our books? Welcome — this is where its story continues.</p>
   </div>
@@ -48,7 +48,7 @@
 
 <!-- ============ CONCEPT ============ -->
 <section id="concept" class="section section-cream">
-  <div class="container split">
+  <div class="container split reveal">
     <div class="split-text">
       <p class="kicker">The Concept</p>
       <h2>A meaningful gift.<br>A lasting keepsake.</h2>
@@ -78,10 +78,12 @@
 <!-- ============ INSIDE THE BOOK ============ -->
 <section id="inside" class="section section-navy">
   <div class="container">
-    <p class="kicker kicker-gold centered">Inside Every Book</p>
-    <h2 class="centered light">Nine journeys through one name</h2>
-    <div class="rule rule-center"></div>
-    <div class="grid grid-3">
+    <div class="reveal">
+      <p class="kicker kicker-gold centered">Inside Every Book</p>
+      <h2 class="centered light">Nine journeys through one name</h2>
+      <div class="rule rule-center"></div>
+    </div>
+    <div class="grid grid-3 reveal">
       <div class="card card-dark"><span class="card-num">I</span><h3>The Story of the Name</h3><p>Where the name was born, what it first meant, and how it travelled through the ages — from ancient roots to the present day.</p></div>
       <div class="card card-dark"><span class="card-num">II</span><h3>The Name in Numbers</h3><p>How popular is it? Where does it rank? Records, curiosities and surprising statistics about the name around the world.</p></div>
       <div class="card card-dark"><span class="card-num">III</span><h3>The Originals</h3><p>The founding figures — the very first famous bearers whose lives gave the name its character and renown.</p></div>
@@ -95,78 +97,47 @@
   </div>
 </section>
 
-<!-- ============ SYMBOLS ============ -->
+<!-- ============ SYMBOLS LIBRARY ============ -->
 <section id="symbols" class="section section-cream">
   <div class="container">
-    <p class="kicker centered">Focus</p>
-    <h2 class="centered">The Symbols of a Name</h2>
-    <div class="rule rule-center"></div>
-    <p class="section-lead">Long before surnames existed, tradition wove each given name into
-    the fabric of the world: a planet to guide it, a stone to guard it, a flower to
-    represent it, a colour to dress it. Every <em>Name Fame</em> book unveils the four
-    emblems of its name — and the story behind each one.</p>
-
-    <div class="symbol-row">
-      <div class="symbol-visual"><img src="images/planetes_jupiter.jpg" alt="Jupiter — a guiding planet"></div>
-      <div class="symbol-text">
-        <h3><span class="diamond">✦</span> The Guiding Planet</h3>
-        <p>In classical astrology every name resonates with a celestial body. A name ruled
-        by <strong>Jupiter</strong> speaks of generosity and leadership; one ruled by the
-        <strong>Moon</strong> of intuition and imagination; by <strong>Venus</strong> of
-        harmony and art; by the <strong>Sun</strong> of vitality and presence. The book
-        explains which planet watches over the name — and why.</p>
-      </div>
+    <div class="reveal">
+      <p class="kicker centered">The Four Emblems</p>
+      <h2 class="centered">The Symbols of a Name</h2>
+      <div class="rule rule-center"></div>
+      <p class="section-lead">Long before surnames existed, tradition wove each given name into
+      the fabric of the world: a planet to guide it, a stone to guard it, a flower to
+      represent it, a colour to dress it. Every <em>Name Fame</em> book unveils the four
+      emblems of its name — chosen from the great library of symbols below.</p>
     </div>
 
-    <div class="symbol-row reverse">
-      <div class="symbol-visual"><img src="images/pierres_saphir_bleu.jpg" alt="Blue sapphire — a guardian gemstone"></div>
-      <div class="symbol-text">
-        <h3><span class="diamond">✦</span> The Gemstone</h3>
-        <p>From the deep blue <strong>sapphire</strong> of wisdom to the
-        <strong>emerald</strong> of rebirth, the <strong>ruby</strong> of passion and the
-        <strong>pearl</strong> of purity — each name is paired with a stone whose virtues
-        mirror its character. A talisman in mineral form, chosen from centuries of lore.</p>
+    <div class="lib reveal">
+      <div class="lib-tabs" role="tablist">
+        <button class="lib-tab active" data-cat="planets">✦&ensp;Planets</button>
+        <button class="lib-tab" data-cat="gems">✦&ensp;Gemstones</button>
+        <button class="lib-tab" data-cat="flowers">✦&ensp;Flowers</button>
+        <button class="lib-tab" data-cat="colours">✦&ensp;Colours</button>
       </div>
-    </div>
-
-    <div class="symbol-row">
-      <div class="symbol-visual"><img src="images/fleurs_lys_blanc.jpg" alt="White lily — an emblematic flower"></div>
-      <div class="symbol-text">
-        <h3><span class="diamond">✦</span> The Flower</h3>
-        <p>The Victorian language of flowers gave every bloom a meaning: the
-        <strong>white lily</strong> for nobility of heart, the <strong>rose</strong> for
-        love, the <strong>thistle</strong> for resilience, the <strong>violet</strong> for
-        modest strength. Each book presents the flower of its name and what it whispers
-        about those who carry it.</p>
-      </div>
-    </div>
-
-    <div class="symbol-row reverse">
-      <div class="symbol-visual"><img src="images/couleurs_bleu_royal.jpg" alt="Royal blue — an emblematic colour"></div>
-      <div class="symbol-text">
-        <h3><span class="diamond">✦</span> The Colour</h3>
-        <p>Finally, a colour: <strong>royal blue</strong> for loyalty and depth,
-        <strong>warm gold</strong> for radiance, <strong>emerald green</strong> for growth,
-        <strong>violet</strong> for imagination. The shade a name wears is the shade of its
-        temperament — and it colours the whole book.</p>
-      </div>
+      <p id="lib-intro" class="lib-intro"></p>
+      <div id="lib-grid" class="lib-grid"></div>
     </div>
   </div>
 </section>
 
-<!-- ============ NUMEROLOGY ============ -->
-<section id="numerology" class="section section-navy">
+<!-- ============ DISCOVER YOUR NAME ============ -->
+<section id="discover" class="section section-navy">
   <div class="container">
-    <p class="kicker kicker-gold centered">Focus</p>
-    <h2 class="centered light">The Number Hidden in the Letters</h2>
-    <div class="rule rule-center"></div>
-    <p class="section-lead light">Numerology is one of the oldest games humanity has played
-    with the alphabet. In the Pythagorean tradition, every letter carries a value from
-    1&nbsp;to&nbsp;9. Add the letters of a name, reduce the total to a single digit, and you
-    obtain the <strong>name's number</strong> — a small portrait in arithmetic. Every
-    <em>Name Fame</em> book computes it letter by letter, in a gold-and-navy table.</p>
+    <div class="reveal">
+      <p class="kicker kicker-gold centered">The Number Hidden in the Letters</p>
+      <h2 class="centered light">Discover Your Name</h2>
+      <div class="rule rule-center"></div>
+      <p class="section-lead light">Numerology is one of the oldest games humanity has played
+      with the alphabet. In the Pythagorean tradition every letter carries a value from
+      1&nbsp;to&nbsp;9. Add the letters of a name, reduce the total to a single digit, and you
+      obtain the <strong>name's number</strong> — and with it a planet, a stone, a flower
+      and a colour. Type any first name and watch its portrait appear.</p>
+    </div>
 
-    <div class="numo-table">
+    <div class="numo-table reveal">
       <div class="numo-head"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span></div>
       <div class="numo-body">
         <div><span>A</span><span>B</span><span>C</span><span>D</span><span>E</span><span>F</span><span>G</span><span>H</span><span>I</span></div>
@@ -175,17 +146,20 @@
       </div>
     </div>
 
-    <div class="calc">
-      <h3 class="centered light">Try it with any name</h3>
+    <div class="calc reveal">
       <div class="calc-input">
-        <input type="text" id="calc-name" maxlength="20" placeholder="Type a first name…" autocomplete="off" spellcheck="false">
+        <input type="text" id="calc-name" maxlength="24" placeholder="Type a first name…" autocomplete="off" spellcheck="false">
         <button class="btn btn-gold" id="calc-btn">Reveal</button>
       </div>
       <div id="calc-result" class="calc-result" hidden>
+        <h3 id="calc-heading" class="calc-heading"></h3>
         <p id="calc-steps" class="calc-steps"></p>
         <p id="calc-number" class="calc-number"></p>
         <p id="calc-title" class="calc-title"></p>
         <p id="calc-meaning" class="calc-meaning"></p>
+        <div id="calc-emblems" class="calc-emblems"></div>
+        <p class="calc-note">A glimpse of the tradition — each <em>Name Fame</em> book goes
+        further, with the full history, symbolism and legends of its name.</p>
       </div>
     </div>
   </div>
@@ -194,35 +168,42 @@
 <!-- ============ COLLECTION ============ -->
 <section id="collection" class="section section-cream">
   <div class="container">
-    <p class="kicker centered">The Collection</p>
-    <h2 class="centered">The First Twenty-Four Names</h2>
-    <div class="rule rule-center"></div>
-    <p class="section-lead">The series opens with twenty-four of the most beloved names of
-    the English-speaking world — twelve for boys, twelve for girls. Each receives its own
-    complete volume, and new names join the collection regularly.</p>
-    <div class="names-cols">
+    <div class="reveal">
+      <p class="kicker centered">The Collection</p>
+      <h2 class="centered">The First Twenty-Four Names</h2>
+      <div class="rule rule-center"></div>
+      <p class="section-lead">The series opens with twenty-four of the most beloved names of
+      the English-speaking world — twelve for boys, twelve for girls. Each receives its own
+      complete volume, and new names join the collection regularly.
+      <em>Click a name to reveal its number and emblems.</em></p>
+    </div>
+    <div class="names-cols reveal">
       <div class="names-col">
         <h3 class="names-head">For Him</h3>
         <ul class="names-list">
-          <li>John</li><li>James</li><li>William</li><li>Henry</li><li>Michael</li><li>Alexander</li>
-          <li>Daniel</li><li>Benjamin</li><li>Noah</li><li>Oliver</li><li>Liam</li><li>Lucas</li>
+          <li><button>John</button></li><li><button>James</button></li><li><button>William</button></li>
+          <li><button>Henry</button></li><li><button>Michael</button></li><li><button>Alexander</button></li>
+          <li><button>Daniel</button></li><li><button>Benjamin</button></li><li><button>Noah</button></li>
+          <li><button>Oliver</button></li><li><button>Liam</button></li><li><button>Lucas</button></li>
         </ul>
       </div>
       <div class="names-col">
         <h3 class="names-head">For Her</h3>
         <ul class="names-list">
-          <li>Olivia</li><li>Emma</li><li>Charlotte</li><li>Sophia</li><li>Amelia</li><li>Isabella</li>
-          <li>Emily</li><li>Victoria</li><li>Evelyn</li><li>Mia</li><li>Luna</li><li>Harper</li>
+          <li><button>Olivia</button></li><li><button>Emma</button></li><li><button>Charlotte</button></li>
+          <li><button>Sophia</button></li><li><button>Amelia</button></li><li><button>Isabella</button></li>
+          <li><button>Emily</button></li><li><button>Victoria</button></li><li><button>Evelyn</button></li>
+          <li><button>Mia</button></li><li><button>Luna</button></li><li><button>Harper</button></li>
         </ul>
       </div>
     </div>
-    <p class="names-note">✦&ensp;Your name isn't here yet? The collection keeps growing — Elijah, Thomas, Elizabeth, Grace and many more are on their way.</p>
+    <p class="names-note reveal">✦&ensp;Your name isn't here yet? The collection keeps growing — Elijah, Thomas, Elizabeth, Grace and many more are on their way.</p>
   </div>
 </section>
 
 <!-- ============ YOUR STORY ============ -->
 <section id="your-story" class="section section-gold">
-  <div class="container narrow">
+  <div class="container narrow reveal">
     <p class="kicker centered">The Last Chapter Is Yours</p>
     <h2 class="centered">Ten legends. Then you.</h2>
     <div class="rule rule-center"></div>
@@ -242,7 +223,7 @@
 
 <!-- ============ FOOTER ============ -->
 <footer>
-  <img class="footer-logo" src="images/logo.png" alt="Name Fame">
+  <img class="footer-logo" src="images/logo.svg" alt="Name Fame">
   <p class="footer-tag">10&nbsp;Legends&ensp;✦&ensp;1&nbsp;Name&ensp;✦&ensp;Your&nbsp;Story</p>
   <p class="footer-copy">© 2026 Name Fame. All rights reserved.</p>
 </footer>
