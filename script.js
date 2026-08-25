@@ -163,12 +163,69 @@ document.getElementById('calc-name').addEventListener('keydown', (e) => {
   if (e.key === 'Enter') reveal();
 });
 
-// collection chips -> discover
-document.querySelectorAll('.names-list button').forEach((b) => {
-  b.addEventListener('click', () => {
-    reveal(b.textContent.trim());
+// ===== book popup =====
+
+const modal = document.getElementById('book-modal');
+const modalContent = document.getElementById('modal-content');
+
+function esc(s) {
+  return String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+}
+
+function openBook(name) {
+  const key = name.toLowerCase();
+  const book = typeof BOOKS !== 'undefined' ? BOOKS[key] : null;
+  if (!book) {
+    reveal(name);
+    document.getElementById('discover').scrollIntoView({ behavior: 'smooth' });
+    return;
+  }
+  const legends = book.legends.map((l) =>
+    `<li><span class="ml-name">${esc(l.n)}</span><span class="ml-meta">${esc(l.c)} · ${esc(l.o)} · ${esc(l.d)}</span></li>`
+  ).join('');
+  const fiction = book.fiction.map((f) =>
+    `<li><span class="ml-name">${esc(f.n)}</span><span class="ml-meta">${esc(f.f)}</span></li>`
+  ).join('');
+  modalContent.innerHTML = `
+    <p class="modal-kicker">Inside the book</p>
+    <h3 id="modal-name" class="modal-name">${esc(name)}</h3>
+    <p class="modal-meaning">${esc(book.meaning)}</p>
+    <div class="modal-facts">
+      <span class="modal-chip">Number ${book.number} — ${esc(book.ntitle)}</span>
+      <span class="modal-chip">${book.symbols.map(esc).join(' ✦ ')}</span>
+    </div>
+    <p class="modal-sub">✦&ensp;The Ten Legends</p>
+    <ul class="modal-list">${legends}</ul>
+    <p class="modal-sub">✦&ensp;Beyond Reality</p>
+    <ul class="modal-list modal-list-fiction">${fiction}</ul>
+    <div class="modal-cta">
+      <button class="btn btn-gold" id="modal-discover">Reveal its emblems</button>
+    </div>`;
+  modal.hidden = false;
+  document.body.style.overflow = 'hidden';
+  requestAnimationFrame(() => modal.classList.add('open'));
+  document.getElementById('modal-discover').addEventListener('click', () => {
+    closeBook();
+    reveal(name);
     document.getElementById('discover').scrollIntoView({ behavior: 'smooth' });
   });
+}
+
+function closeBook() {
+  modal.classList.remove('open');
+  modal.hidden = true;
+  document.body.style.overflow = '';
+}
+
+document.getElementById('modal-close').addEventListener('click', closeBook);
+document.getElementById('modal-backdrop').addEventListener('click', closeBook);
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && !modal.hidden) closeBook();
+});
+
+// collection chips -> book popup
+document.querySelectorAll('.names-list button').forEach((b) => {
+  b.addEventListener('click', () => openBook(b.textContent.trim()));
 });
 
 // ?name= deep link (for QR variants)
