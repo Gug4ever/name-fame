@@ -188,10 +188,24 @@ strong { font-weight: 600; color: var(--navy); }
 .split { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 4rem; align-items: center; }
 .split-text p { margin-bottom: 1.1rem; }
 .book-figure { position: relative; }
-.book-figure img {
+.book-stack { position: relative; padding: 5% 0 0 16%; }
+.book-stack img {
   border: 1px solid var(--gold);
-  box-shadow: 14px 14px 0 rgba(27, 58, 107, 0.12), 0 18px 40px rgba(0,0,0,0.22);
+  background: var(--cream-light);
+}
+.book-back {
+  position: absolute;
+  top: 0; left: 0;
+  width: 72%;
+  transform: rotate(-4deg);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.18);
+}
+.book-front {
+  position: relative;
+  width: 84%;
+  margin-left: auto;
   transform: rotate(1.5deg);
+  box-shadow: 14px 14px 0 rgba(27, 58, 107, 0.12), 0 18px 40px rgba(0,0,0,0.22);
 }
 .book-figure figcaption {
   margin-top: 1.6rem;
