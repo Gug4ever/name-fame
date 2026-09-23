@@ -442,18 +442,17 @@ strong { font-weight: 600; color: var(--navy); }
 .names-list { list-style: none; columns: 2; }
 .names-list li { padding: 0.32rem 0; text-align: center; break-inside: avoid; }
 .names-list li::before { content: '✦ '; color: var(--gold); font-size: 0.75rem; vertical-align: 2px; }
-.names-list button {
+.names-list a {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.35rem;
   color: var(--navy);
-  background: none;
-  border: none;
+  text-decoration: none;
   border-bottom: 1px solid transparent;
   cursor: pointer;
   padding: 0 2px;
   transition: color 0.2s, border-color 0.2s;
 }
-.names-list button:hover { color: var(--gold); border-bottom-color: var(--gold); }
+.names-list a:hover { color: var(--gold); border-bottom-color: var(--gold); }
 .names-note {
   text-align: center;
   margin-top: 3rem;
@@ -567,6 +566,61 @@ strong { font-weight: 600; color: var(--navy); }
   .modal-list li { flex-direction: column; gap: 0; }
   .ml-meta { text-align: left; }
 }
+
+/* ---------- accessibility / SEO ---------- */
+.visually-hidden {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------- name pages ---------- */
+.name-hero {
+  background:
+    radial-gradient(ellipse at 50% 20%, rgba(201,168,76,0.14), transparent 60%),
+    linear-gradient(175deg, var(--navy-deep) 0%, var(--navy) 70%, var(--navy-deep) 100%);
+  padding: 7rem 1.5rem 3.5rem;
+  text-align: center;
+}
+.name-hero h1 {
+  font-size: clamp(2.6rem, 7vw, 4rem);
+  font-weight: 600;
+  color: var(--cream-light);
+  line-height: 1.05;
+}
+.name-hero .name-meaning {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #E8E2D4;
+  margin-top: 0.7rem;
+}
+.name-chips {
+  display: flex; flex-wrap: wrap; gap: 0.6rem;
+  justify-content: center;
+  margin-top: 1.4rem;
+}
+.name-section { padding: 3rem 1.5rem; }
+.name-section .container { max-width: 760px; }
+.name-section h2 {
+  font-size: 1.9rem;
+  margin-bottom: 0.8rem;
+}
+.name-section p { margin-bottom: 1rem; }
+.name-breadcrumb {
+  font-family: 'Cinzel', serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+.name-breadcrumb a { color: var(--gold); text-decoration: none; }
+.name-breadcrumb a:hover { text-decoration: underline; }
+.name-cta { text-align: center; padding: 1rem 1.5rem 4rem; }
+.name-cta .btn { margin: 0 0.4rem 0.8rem; }
 
 /* ---------- footer ---------- */
 footer {

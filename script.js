@@ -180,6 +180,7 @@ function openBook(name) {
     document.getElementById('discover').scrollIntoView({ behavior: 'smooth' });
     return;
   }
+  const disp = book.display || name.charAt(0).toUpperCase() + name.slice(1);
   const legends = book.legends.map((l) =>
     `<li><span class="ml-name">${esc(l.n)}</span><span class="ml-meta">${esc(l.c)} · ${esc(l.o)} · ${esc(l.d)}</span></li>`
   ).join('');
@@ -188,7 +189,7 @@ function openBook(name) {
   ).join('');
   modalContent.innerHTML = `
     <p class="modal-kicker">Inside the book</p>
-    <h3 id="modal-name" class="modal-name">${esc(name)}</h3>
+    <h3 id="modal-name" class="modal-name">${esc(disp)}</h3>
     <p class="modal-meaning">${esc(book.meaning)}</p>
     <div class="modal-facts">
       <span class="modal-chip">Number ${book.number} — ${esc(book.ntitle)}</span>
@@ -223,9 +224,12 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape' && !modal.hidden) closeBook();
 });
 
-// collection chips -> book popup
-document.querySelectorAll('.names-list button').forEach((b) => {
-  b.addEventListener('click', () => openBook(b.textContent.trim()));
+// collection links -> book popup (crawlers follow the href to the name page)
+document.querySelectorAll('.names-list a').forEach((a) => {
+  a.addEventListener('click', (e) => {
+    e.preventDefault();
+    openBook(a.dataset.name || a.textContent.trim());
+  });
 });
 
 // ?name= deep link (for QR variants)
