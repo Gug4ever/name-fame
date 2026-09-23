@@ -198,12 +198,14 @@ strong { font-weight: 600; color: var(--navy); }
   position: absolute;
   top: 0; left: 0;
   width: 72%;
+  height: auto;
   transform: rotate(-4deg);
   box-shadow: 0 10px 26px rgba(0,0,0,0.18);
 }
 .book-front {
   position: relative;
   width: 84%;
+  height: auto;
   margin-left: auto;
   transform: rotate(1.5deg);
   box-shadow: 14px 14px 0 rgba(27, 58, 107, 0.12), 0 18px 40px rgba(0,0,0,0.22);
