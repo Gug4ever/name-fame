@@ -20,14 +20,17 @@ BOYS = ["john","james","william","henry","michael","alexander","daniel","benjami
         "charles","thomas","george","edward","arthur","david","robert","paul","peter",
         "samuel","louis","anthony","leonardo","joseph","frederick","albert","christopher",
         "raphael","theodore","jack","jose","liam","noah","nicholas","richard","carlos",
-        "luis","mark","martin","stephen","francis"]
+        "luis","mark","martin","stephen","francis",
+        "adam","andrew","antonio","eric","gabriel","isaac","matthew","miguel","patrick","timothy"]
 GIRLS = ["olivia","emma","charlotte","sophia","amelia","isabella","emily","victoria",
          "elizabeth","mary","anne","catherine","margaret","jane","alice","grace","diana",
          "helen","eleanor","florence","clara","anna","julia","sarah",
-         "eva","ella","lucy","maria","rose","michelle","jennifer","barbara","susan"]
+         "eva","ella","lucy","maria","rose","michelle","jennifer","barbara","susan",
+         "alexandra","angela","beatrice","carmen","caroline","christine","hannah","josephine",
+         "karen","laura","louise","martha","natalie","patricia","rachel","rebecca","teresa"]
 NAMES = BOYS + GIRLS
 
-COUNT_WORDS = {73: "Seventy-Three"}
+COUNT_WORDS = {73: "Seventy-Three", 100: "One Hundred"}
 
 JOHN = {
     "display": "John",

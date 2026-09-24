@@ -4000,6 +4000,1006 @@ const BOOKS = {
    }
   ]
  },
+ "adam": {
+  "display": "Adam",
+  "meaning": "Adam means: earth — the human made of ground.",
+  "number": "1",
+  "ntitle": "The First Light",
+  "symbols": [
+   "The Sun",
+   "White Pearl",
+   "Narcissus",
+   "Deep Navy"
+  ],
+  "legends": [
+   {
+    "n": "Adam Smith",
+    "c": "Economics",
+    "o": "Scottish",
+    "d": "1723–1790"
+   },
+   {
+    "n": "Adam Elsheimer",
+    "c": "Painting",
+    "o": "German",
+    "d": "1578–1610"
+   },
+   {
+    "n": "Adam Sedgwick",
+    "c": "Geology",
+    "o": "English",
+    "d": "1785–1873"
+   },
+   {
+    "n": "Adam Mickiewicz",
+    "c": "Poetry",
+    "o": "Polish",
+    "d": "1798–1855"
+   },
+   {
+    "n": "Adam Clayton Powell Jr.",
+    "c": "Politics",
+    "o": "American",
+    "d": "1908–1972"
+   },
+   {
+    "n": "Adam Riess",
+    "c": "Astrophysics",
+    "o": "American",
+    "d": "born 1969"
+   },
+   {
+    "n": "Adam Małysz",
+    "c": "Ski Jumping",
+    "o": "Polish",
+    "d": "born 1977"
+   },
+   {
+    "n": "Adam Kay",
+    "c": "Medicine & Writing",
+    "o": "British",
+    "d": "born 1980"
+   },
+   {
+    "n": "Adam Ondra",
+    "c": "Climbing",
+    "o": "Czech",
+    "d": "born 1993"
+   },
+   {
+    "n": "Adam Zagajewski",
+    "c": "Poetry & Exile",
+    "o": "Polish",
+    "d": "1945–2021"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Adam Bede",
+    "f": "Adam Bede"
+   },
+   {
+    "n": "Adam Trask",
+    "f": "East of Eden"
+   },
+   {
+    "n": "Adam Dalgliesh",
+    "f": "Cover Her Face"
+   },
+   {
+    "n": "Adam Young",
+    "f": "Good Omens"
+   },
+   {
+    "n": "Adam Warlock",
+    "f": "Marvel Comics"
+   },
+   {
+    "n": "Adam Bonner",
+    "f": "Adam's Rib"
+   }
+  ]
+ },
+ "andrew": {
+  "display": "Andrew",
+  "meaning": "Andrew means: manly, brave — the strong one.",
+  "number": "11",
+  "ntitle": "The First Mover",
+  "symbols": [
+   "The Moon",
+   "Emerald",
+   "Chrysanthemum",
+   "Harbour Green"
+  ],
+  "legends": [
+   {
+    "n": "Andrea Palladio",
+    "c": "Architecture",
+    "o": "Italian",
+    "d": "1508–1580"
+   },
+   {
+    "n": "Andrés Bello",
+    "c": "Letters & Law",
+    "o": "Venezuelan-Chilean",
+    "d": "1781–1865"
+   },
+   {
+    "n": "Andrew Carnegie",
+    "c": "Steel & Giving",
+    "o": "Scottish-American",
+    "d": "1835–1919"
+   },
+   {
+    "n": "André Gide",
+    "c": "Literature",
+    "o": "French",
+    "d": "1869–1951"
+   },
+   {
+    "n": "Andy Warhol",
+    "c": "Art",
+    "o": "American",
+    "d": "1928–1987"
+   },
+   {
+    "n": "Andrei Sakharov",
+    "c": "Physics & Conscience",
+    "o": "Russian",
+    "d": "1921–1989"
+   },
+   {
+    "n": "Andrew Mlangeni",
+    "c": "Freedom Struggle",
+    "o": "South African",
+    "d": "1925–2020"
+   },
+   {
+    "n": "Andrew Wiles",
+    "c": "Mathematics",
+    "o": "English",
+    "d": "born 1953"
+   },
+   {
+    "n": "Andrea Ghez",
+    "c": "Astronomy",
+    "o": "American",
+    "d": "born 1965"
+   },
+   {
+    "n": "Andy Murray",
+    "c": "Tennis",
+    "o": "Scottish",
+    "d": "born 1987"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Prince Andrei Bolkonsky",
+    "f": "War and Peace"
+   },
+   {
+    "n": "Andy Dufresne",
+    "f": "The Shawshank Redemption"
+   },
+   {
+    "n": "Andy Sachs",
+    "f": "The Devil Wears Prada"
+   },
+   {
+    "n": "Andy Davis",
+    "f": "Toy Story"
+   },
+   {
+    "n": "Sheriff Andy Taylor",
+    "f": "The Andy Griffith Show"
+   },
+   {
+    "n": "Andrew Neiman",
+    "f": "Whiplash"
+   }
+  ]
+ },
+ "antonio": {
+  "display": "Antonio",
+  "meaning": "Antonio means: beyond price.",
+  "number": "7",
+  "ntitle": "The Patient Maker",
+  "symbols": [
+   "Neptune",
+   "Aquamarine",
+   "Rose",
+   "Royal Blue"
+  ],
+  "legends": [
+   {
+    "n": "Antonio Pigafetta",
+    "c": "Voyages",
+    "o": "Italian",
+    "d": "c.1491 – c.1534"
+   },
+   {
+    "n": "Antonio Stradivari",
+    "c": "Instruments",
+    "o": "Italian",
+    "d": "c.1644 – 1737"
+   },
+   {
+    "n": "Antonio Canova",
+    "c": "Sculpture",
+    "o": "Italian",
+    "d": "1757 – 1822"
+   },
+   {
+    "n": "Antonio de Nebrija",
+    "c": "Language",
+    "o": "Spanish",
+    "d": "1444 – 1522"
+   },
+   {
+    "n": "Antonio Machado",
+    "c": "Poetry",
+    "o": "Spanish",
+    "d": "1875 – 1939"
+   },
+   {
+    "n": "Antonio Gramsci",
+    "c": "Ideas",
+    "o": "Italian",
+    "d": "1891 – 1937"
+   },
+   {
+    "n": "Antonio Meucci",
+    "c": "Invention",
+    "o": "Italian-American",
+    "d": "1808 – 1889"
+   },
+   {
+    "n": "Antônio Carlos Jobim",
+    "c": "Music",
+    "o": "Brazilian",
+    "d": "1927 – 1994"
+   },
+   {
+    "n": "António Damásio",
+    "c": "The Brain",
+    "o": "Portuguese",
+    "d": "Born 1944"
+   },
+   {
+    "n": "Antonio Banderas",
+    "c": "Screen",
+    "o": "Spanish",
+    "d": "Born 1960"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Master Antonio",
+    "f": "The Adventures of Pinocchio"
+   },
+   {
+    "n": "Anton Ego",
+    "f": "Ratatouille"
+   },
+   {
+    "n": "Antonio Salieri",
+    "f": "Amadeus"
+   },
+   {
+    "n": "Antonio",
+    "f": "The Tempest"
+   },
+   {
+    "n": "Tonio",
+    "f": "Pagliacci"
+   },
+   {
+    "n": "Antonio",
+    "f": "The Marriage of Figaro"
+   }
+  ]
+ },
+ "eric": {
+  "display": "Eric",
+  "meaning": "Eric means: ever-ruler — the one who rules alone.",
+  "number": "8",
+  "ntitle": "The Long Haul",
+  "symbols": [
+   "Saturn",
+   "Citrine",
+   "Lily of the Valley",
+   "Deep Indigo"
+  ],
+  "legends": [
+   {
+    "n": "Eric Clapton",
+    "c": "Music",
+    "o": "British",
+    "d": "1945–"
+   },
+   {
+    "n": "Erik Satie",
+    "c": "Composition",
+    "o": "French",
+    "d": "1866–1925"
+   },
+   {
+    "n": "Eric Liddell",
+    "c": "Athletics",
+    "o": "Scottish",
+    "d": "1902–1945"
+   },
+   {
+    "n": "Erik Erikson",
+    "c": "Psychology",
+    "o": "German-American",
+    "d": "1902–1994"
+   },
+   {
+    "n": "Eric Carle",
+    "c": "Children's Books",
+    "o": "American",
+    "d": "1929–2021"
+   },
+   {
+    "n": "Eric Hobsbawm",
+    "c": "History",
+    "o": "British",
+    "d": "1917–2012"
+   },
+   {
+    "n": "Erik Weihenmayer",
+    "c": "Mountaineering",
+    "o": "American",
+    "d": "1968–"
+   },
+   {
+    "n": "Éric Rohmer",
+    "c": "Cinema",
+    "o": "French",
+    "d": "1920–2010"
+   },
+   {
+    "n": "Erik Axel Karlfeldt",
+    "c": "Poetry",
+    "o": "Swedish",
+    "d": "1864–1931"
+   },
+   {
+    "n": "Eric Kandel",
+    "c": "Neuroscience",
+    "o": "Austrian-American",
+    "d": "1929–"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Erik",
+    "f": "The Phantom of the Opera"
+   },
+   {
+    "n": "Prince Eric",
+    "f": "The Little Mermaid"
+   },
+   {
+    "n": "Eric Cartman",
+    "f": "South Park"
+   },
+   {
+    "n": "Erik Lehnsherr",
+    "f": "X-Men"
+   },
+   {
+    "n": "Eric Thursley",
+    "f": "Eric"
+   },
+   {
+    "n": "Eric Northman",
+    "f": "True Blood"
+   }
+  ]
+ },
+ "gabriel": {
+  "display": "Gabriel",
+  "meaning": "Gabriel means: God is my strength.",
+  "number": "9",
+  "ntitle": "The Messenger",
+  "symbols": [
+   "Mars",
+   "Emerald",
+   "Aster",
+   "Royal Blue"
+  ],
+  "legends": [
+   {
+    "n": "Gabriel García Márquez",
+    "c": "Literature",
+    "o": "Colombian",
+    "d": "1927–2014"
+   },
+   {
+    "n": "Gabriel Fauré",
+    "c": "Music",
+    "o": "French",
+    "d": "1845–1924"
+   },
+   {
+    "n": "Gabriel Lippmann",
+    "c": "Physics",
+    "o": "Luxembourgish-French",
+    "d": "1845–1921"
+   },
+   {
+    "n": "Gabriele Münter",
+    "c": "Painting",
+    "o": "German",
+    "d": "1877–1962"
+   },
+   {
+    "n": "Gabriel Prosser",
+    "c": "Freedom",
+    "o": "American",
+    "d": "c.1776–1800"
+   },
+   {
+    "n": "Gabriel Celaya",
+    "c": "Poetry",
+    "o": "Spanish",
+    "d": "1911–1991"
+   },
+   {
+    "n": "Gabriel Byrne",
+    "c": "Acting",
+    "o": "Irish",
+    "d": "Born 1950"
+   },
+   {
+    "n": "Gabriel Batistuta",
+    "c": "Football",
+    "o": "Argentine",
+    "d": "Born 1969"
+   },
+   {
+    "n": "Gabriel Marcel",
+    "c": "Philosophy",
+    "o": "French",
+    "d": "1889–1973"
+   },
+   {
+    "n": "Gabriel Medina",
+    "c": "Surfing",
+    "o": "Brazilian",
+    "d": "Born 1993"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Gabriel Oak",
+    "f": "Far from the Madding Crowd"
+   },
+   {
+    "n": "Gabriel Conroy",
+    "f": "The Dead"
+   },
+   {
+    "n": "Gabriel Utterson",
+    "f": "Strange Case of Dr Jekyll and Mr Hyde"
+   },
+   {
+    "n": "Gabriel Van Helsing",
+    "f": "Van Helsing"
+   },
+   {
+    "n": "Gabriel Belmont",
+    "f": "Castlevania: Lords of Shadow"
+   },
+   {
+    "n": "Gabriel Agreste",
+    "f": "Miraculous: Tales of Ladybug & Cat Noir"
+   }
+  ]
+ },
+ "isaac": {
+  "display": "Isaac",
+  "meaning": "Isaac means: he will laugh — the laughter itself.",
+  "number": "6",
+  "ntitle": "The Long Patience",
+  "symbols": [
+   "Venus",
+   "Pearl",
+   "Carnation",
+   "Slate"
+  ],
+  "legends": [
+   {
+    "n": "Isaac Newton",
+    "c": "Physics & Mathematics",
+    "o": "English",
+    "d": "1642–1727"
+   },
+   {
+    "n": "Isaac Watts",
+    "c": "Hymns & Logic",
+    "o": "English",
+    "d": "1674–1748"
+   },
+   {
+    "n": "Isaac Merritt Singer",
+    "c": "Invention & Industry",
+    "o": "American",
+    "d": "1811–1875"
+   },
+   {
+    "n": "Isaac Albéniz",
+    "c": "Composition",
+    "o": "Spanish",
+    "d": "1860–1909"
+   },
+   {
+    "n": "Isaak Levitan",
+    "c": "Landscape Painting",
+    "o": "Russian",
+    "d": "1860–1900"
+   },
+   {
+    "n": "Isaac Babel",
+    "c": "Short Stories",
+    "o": "Russian",
+    "d": "1894–1940"
+   },
+   {
+    "n": "Isaac Bashevis Singer",
+    "c": "Yiddish Literature",
+    "o": "Polish-American",
+    "d": "1903–1991"
+   },
+   {
+    "n": "Isaac Asimov",
+    "c": "Science Fiction",
+    "o": "American",
+    "d": "1920–1992"
+   },
+   {
+    "n": "Isaac Stern",
+    "c": "Violin",
+    "o": "American",
+    "d": "1920–2001"
+   },
+   {
+    "n": "Isaac Julien",
+    "c": "Film & Installation Art",
+    "o": "British",
+    "d": "born 1960"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Isaac Davis",
+    "f": "Manhattan"
+   },
+   {
+    "n": "Isak Borg",
+    "f": "Wild Strawberries"
+   },
+   {
+    "n": "Isaac Washington",
+    "f": "The Love Boat"
+   },
+   {
+    "n": "Isaac Mendez",
+    "f": "Heroes"
+   },
+   {
+    "n": "Isaac",
+    "f": "The Orville"
+   },
+   {
+    "n": "Isaac Clarke",
+    "f": "Dead Space"
+   }
+  ]
+ },
+ "matthew": {
+  "display": "Matthew",
+  "meaning": "Matthew means: gift of God.",
+  "number": "9",
+  "ntitle": "The Reckoner",
+  "symbols": [
+   "Mars",
+   "Jade",
+   "Aster",
+   "Royal Blue"
+  ],
+  "legends": [
+   {
+    "n": "Matteo Ricci",
+    "c": "Mission & Mapmaking",
+    "o": "Italian",
+    "d": "1552–1610"
+   },
+   {
+    "n": "Matthias Corvinus",
+    "c": "Crown & Library",
+    "o": "Hungarian",
+    "d": "1443–1490"
+   },
+   {
+    "n": "Matthew Boulton",
+    "c": "Steam & Coin",
+    "o": "English",
+    "d": "1728–1809"
+   },
+   {
+    "n": "Matthew Flinders",
+    "c": "Charts & Coastlines",
+    "o": "English",
+    "d": "1774–1814"
+   },
+   {
+    "n": "Mathieu Orfila",
+    "c": "Forensic Science",
+    "o": "Spanish-French",
+    "d": "1787–1853"
+   },
+   {
+    "n": "Matthias Schleiden",
+    "c": "Botany",
+    "o": "German",
+    "d": "1804–1881"
+   },
+   {
+    "n": "Matthew Arnold",
+    "c": "Poetry & Criticism",
+    "o": "English",
+    "d": "1822–1888"
+   },
+   {
+    "n": "Matthew Henson",
+    "c": "Polar Exploration",
+    "o": "American",
+    "d": "1866–1955"
+   },
+   {
+    "n": "Matthias Sindelar",
+    "c": "Football",
+    "o": "Austrian",
+    "d": "1903–1939"
+   },
+   {
+    "n": "Matthieu Ricard",
+    "c": "Science & Compassion",
+    "o": "French",
+    "d": "born 1946"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Matthew Cuthbert",
+    "f": "Anne of Green Gables"
+   },
+   {
+    "n": "Matthias",
+    "f": "Redwall"
+   },
+   {
+    "n": "Matthew Murdock",
+    "f": "Daredevil"
+   },
+   {
+    "n": "Matthew Crawley",
+    "f": "Downton Abbey"
+   },
+   {
+    "n": "Matt Dillon",
+    "f": "Gunsmoke"
+   },
+   {
+    "n": "Matt Hooper",
+    "f": "Jaws"
+   }
+  ]
+ },
+ "miguel": {
+  "display": "Miguel",
+  "meaning": "Miguel means: who is like God? — Iberia's oldest question.",
+  "number": "4",
+  "ntitle": "The Deep Root",
+  "symbols": [
+   "Uranus",
+   "Garnet",
+   "Aster",
+   "Ember Orange"
+  ],
+  "legends": [
+   {
+    "n": "Miguel de Cervantes",
+    "c": "Letters",
+    "o": "Spanish",
+    "d": "1547–1616"
+   },
+   {
+    "n": "Miguel Servet",
+    "c": "Medicine & Faith",
+    "o": "Spanish",
+    "d": "c.1511–1553"
+   },
+   {
+    "n": "Miguel Hidalgo",
+    "c": "Independence",
+    "o": "Mexican",
+    "d": "1753–1811"
+   },
+   {
+    "n": "Miguel Grau",
+    "c": "The Sea",
+    "o": "Peruvian",
+    "d": "1834–1879"
+   },
+   {
+    "n": "Miguel de Unamuno",
+    "c": "Philosophy",
+    "o": "Spanish",
+    "d": "1864–1936"
+   },
+   {
+    "n": "Miguel Ángel Asturias",
+    "c": "Nobel Literature",
+    "o": "Guatemalan",
+    "d": "1899–1974"
+   },
+   {
+    "n": "Miguel Hernández",
+    "c": "Poetry",
+    "o": "Spanish",
+    "d": "1910–1942"
+   },
+   {
+    "n": "Miguel Torga",
+    "c": "Letters & Medicine",
+    "o": "Portuguese",
+    "d": "1907–1995"
+   },
+   {
+    "n": "Miguel Induráin",
+    "c": "Cycling",
+    "o": "Spanish",
+    "d": "born 1964"
+   },
+   {
+    "n": "Miguel Nicolelis",
+    "c": "Neuroscience",
+    "o": "Brazilian",
+    "d": "born 1961"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Miguel Rivera",
+    "f": "Coco"
+   },
+   {
+    "n": "Miguel",
+    "f": "The Road to El Dorado"
+   },
+   {
+    "n": "Miguel O'Hara",
+    "f": "Spider-Man 2099"
+   },
+   {
+    "n": "Miguel Diaz",
+    "f": "Cobra Kai"
+   },
+   {
+    "n": "Miguel Chavez",
+    "f": "…And Now Miguel"
+   },
+   {
+    "n": "Miguel Caballero Rojo",
+    "f": "Tekken"
+   }
+  ]
+ },
+ "patrick": {
+  "display": "Patrick",
+  "meaning": "Patrick means: noble, of the fathers' line.",
+  "number": "33",
+  "ntitle": "The Master Teacher",
+  "symbols": [
+   "Venus",
+   "Golden Topaz",
+   "Daffodil",
+   "Ember Orange"
+  ],
+  "legends": [
+   {
+    "n": "Patrick Henry",
+    "c": "Revolution & Oratory",
+    "o": "American",
+    "d": "1736–1799"
+   },
+   {
+    "n": "Pádraig Pearse",
+    "c": "Teaching & Rebellion",
+    "o": "Irish",
+    "d": "1879–1916"
+   },
+   {
+    "n": "Patrick Manson",
+    "c": "Tropical Medicine",
+    "o": "Scottish",
+    "d": "1844–1922"
+   },
+   {
+    "n": "Patrick White",
+    "c": "Literature",
+    "o": "Australian",
+    "d": "1912–1990"
+   },
+   {
+    "n": "Patrick Leigh Fermor",
+    "c": "Travel Writing",
+    "o": "English",
+    "d": "1915–2011"
+   },
+   {
+    "n": "Patrick Kavanagh",
+    "c": "Poetry",
+    "o": "Irish",
+    "d": "1904–1967"
+   },
+   {
+    "n": "Patrice Lumumba",
+    "c": "Independence",
+    "o": "Congolese",
+    "d": "1925–1961"
+   },
+   {
+    "n": "Patrick Modiano",
+    "c": "Literature",
+    "o": "French",
+    "d": "born 1945"
+   },
+   {
+    "n": "Patrick Stewart",
+    "c": "Stage & Screen",
+    "o": "English",
+    "d": "born 1940"
+   },
+   {
+    "n": "Patricio Guzmán",
+    "c": "Documentary Film",
+    "o": "Chilean",
+    "d": "1941–2026"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Patrick Star",
+    "f": "SpongeBob SquarePants"
+   },
+   {
+    "n": "Patrick Melrose",
+    "f": "The Patrick Melrose novels"
+   },
+   {
+    "n": "Patrick Jane",
+    "f": "The Mentalist"
+   },
+   {
+    "n": "Paddy Clarke",
+    "f": "Paddy Clarke Ha Ha Ha"
+   },
+   {
+    "n": "Pádraic Súilleabháin",
+    "f": "The Banshees of Inisherin"
+   },
+   {
+    "n": "Patrick Verona",
+    "f": "10 Things I Hate About You"
+   }
+  ]
+ },
+ "timothy": {
+  "display": "Timothy",
+  "meaning": "Timothy means: one who honours God.",
+  "number": "11",
+  "ntitle": "The Beacon",
+  "symbols": [
+   "The Moon",
+   "Aquamarine",
+   "Carnation",
+   "Tidal Teal"
+  ],
+  "legends": [
+   {
+    "n": "Timothy Berners-Lee",
+    "c": "Computing",
+    "o": "British",
+    "d": "1955–"
+   },
+   {
+    "n": "Timothy Bright",
+    "c": "Medicine & Shorthand",
+    "o": "English",
+    "d": "c.1551–1615"
+   },
+   {
+    "n": "Timothy Leary",
+    "c": "Psychology",
+    "o": "American",
+    "d": "1920–1996"
+   },
+   {
+    "n": "Tim Cook",
+    "c": "Business",
+    "o": "American",
+    "d": "1960–"
+   },
+   {
+    "n": "Tim Peake",
+    "c": "Spaceflight",
+    "o": "British",
+    "d": "1972–"
+   },
+   {
+    "n": "Tim Winton",
+    "c": "Literature",
+    "o": "Australian",
+    "d": "1960–"
+   },
+   {
+    "n": "Timothée Chalamet",
+    "c": "Screen",
+    "o": "French-American",
+    "d": "1995–"
+   },
+   {
+    "n": "Tim Burton",
+    "c": "Cinema",
+    "o": "American",
+    "d": "1958–"
+   },
+   {
+    "n": "Timothy Snyder",
+    "c": "History",
+    "o": "American",
+    "d": "1969–"
+   },
+   {
+    "n": "Tim Rice",
+    "c": "Musical Theatre",
+    "o": "British",
+    "d": "1944–"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Tiny Tim",
+    "f": "A Christmas Carol"
+   },
+   {
+    "n": "Timothy Q. Mouse",
+    "f": "Dumbo"
+   },
+   {
+    "n": "Tim the Enchanter",
+    "f": "Monty Python and the Holy Grail"
+   },
+   {
+    "n": "Tim Drake",
+    "f": "Batman"
+   },
+   {
+    "n": "Timmy Turner",
+    "f": "The Fairly OddParents"
+   },
+   {
+    "n": "Tim Canterbury",
+    "f": "The Office"
+   }
+  ]
+ },
  "olivia": {
   "display": "Olivia",
   "meaning": "Olivia means: the olive tree — peace, bearing fruit.",
@@ -7297,6 +8297,1706 @@ const BOOKS = {
    {
     "n": "Susie Derkins",
     "f": "Calvin and Hobbes"
+   }
+  ]
+ },
+ "alexandra": {
+  "display": "Alexandra",
+  "meaning": "Alexandra means: defender of the people.",
+  "number": "8",
+  "ntitle": "The Quiet Sovereign",
+  "symbols": [
+   "Saturn",
+   "Black Onyx",
+   "Daffodil",
+   "Deep Scarlet"
+  ],
+  "legends": [
+   {
+    "n": "Queen Alexandra",
+    "c": "Royalty",
+    "o": "Danish-British",
+    "d": "1844–1925"
+   },
+   {
+    "n": "Alexandra David-Néel",
+    "c": "Exploration",
+    "o": "French-Belgian",
+    "d": "1868–1969"
+   },
+   {
+    "n": "Alexandra Kollontai",
+    "c": "Diplomacy",
+    "o": "Russian",
+    "d": "1872–1952"
+   },
+   {
+    "n": "Alexandra Danilova",
+    "c": "Dance",
+    "o": "Russian-American",
+    "d": "1903–1997"
+   },
+   {
+    "n": "Alexandra Bellow",
+    "c": "Mathematics",
+    "o": "Romanian-American",
+    "d": "1935–2025"
+   },
+   {
+    "n": "Alejandra Pizarnik",
+    "c": "Literature",
+    "o": "Argentine",
+    "d": "1936–1972"
+   },
+   {
+    "n": "Alexandra Elbakyan",
+    "c": "Open science",
+    "o": "Kazakhstani",
+    "d": "1988–"
+   },
+   {
+    "n": "Alexandra Boulat",
+    "c": "Photojournalism",
+    "o": "French",
+    "d": "1962–2007"
+   },
+   {
+    "n": "Alessandra Korap Munduruku",
+    "c": "Activism",
+    "o": "Brazilian",
+    "d": "1985–"
+   },
+   {
+    "n": "Aleksandra Mirosław",
+    "c": "Sport",
+    "o": "Polish",
+    "d": "1994–"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Alexandra Bergson",
+    "f": "O Pioneers!"
+   },
+   {
+    "n": "Alexandra Medford",
+    "f": "The Witches of Eastwick"
+   },
+   {
+    "n": "Alex Owens",
+    "f": "Flashdance"
+   },
+   {
+    "n": "Alex Russo",
+    "f": "Wizards of Waverly Place"
+   },
+   {
+    "n": "Alex Cabot",
+    "f": "Law & Order: SVU"
+   },
+   {
+    "n": "Alex Danvers",
+    "f": "Supergirl"
+   }
+  ]
+ },
+ "angela": {
+  "display": "Angela",
+  "meaning": "Angela means: messenger — the one who brings the news.",
+  "number": "22",
+  "ntitle": "The Master Builder",
+  "symbols": [
+   "Uranus",
+   "Amethyst",
+   "Carnation",
+   "Rose Pink"
+  ],
+  "legends": [
+   {
+    "n": "Angela Merkel",
+    "c": "Government",
+    "o": "German",
+    "d": "1954–"
+   },
+   {
+    "n": "Angela Davis",
+    "c": "Philosophy",
+    "o": "American",
+    "d": "1944–"
+   },
+   {
+    "n": "Angela Lansbury",
+    "c": "Stage & Screen",
+    "o": "British-American",
+    "d": "1925–2022"
+   },
+   {
+    "n": "Angela Carter",
+    "c": "Literature",
+    "o": "British",
+    "d": "1940–1992"
+   },
+   {
+    "n": "Ángela Ruiz Robles",
+    "c": "Invention",
+    "o": "Spanish",
+    "d": "1895–1975"
+   },
+   {
+    "n": "Angela Burdett-Coutts",
+    "c": "Philanthropy",
+    "o": "British",
+    "d": "1814–1906"
+   },
+   {
+    "n": "Angelina Grimké",
+    "c": "Abolition",
+    "o": "American",
+    "d": "1805–1879"
+   },
+   {
+    "n": "Angela Bassett",
+    "c": "Film",
+    "o": "American",
+    "d": "1958–"
+   },
+   {
+    "n": "Angela Gheorghiu",
+    "c": "Opera",
+    "o": "Romanian",
+    "d": "1965–"
+   },
+   {
+    "n": "Angela Hewitt",
+    "c": "Music",
+    "o": "Canadian",
+    "d": "1958–"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Angelina Ballerina",
+    "f": "Angelina Ballerina"
+   },
+   {
+    "n": "Angela Chase",
+    "f": "My So-Called Life"
+   },
+   {
+    "n": "Angela Bower",
+    "f": "Who's the Boss?"
+   },
+   {
+    "n": "Angela Montenegro",
+    "f": "Bones"
+   },
+   {
+    "n": "Angela Martin",
+    "f": "The Office"
+   },
+   {
+    "n": "Angela Ziegler",
+    "f": "Overwatch"
+   }
+  ]
+ },
+ "beatrice": {
+  "display": "Beatrice",
+  "meaning": "Beatrice means: she who blesses — and, underneath, the traveller.",
+  "number": "9",
+  "ntitle": "The Guide",
+  "symbols": [
+   "Mars",
+   "Pearl",
+   "Poppy",
+   "Vesper Violet"
+  ],
+  "legends": [
+   {
+    "n": "Beatrix Potter",
+    "c": "Books & Farming",
+    "o": "English",
+    "d": "1866–1943"
+   },
+   {
+    "n": "Beatrice Webb",
+    "c": "Social Reform",
+    "o": "English",
+    "d": "1858–1943"
+   },
+   {
+    "n": "Beatrice Tinsley",
+    "c": "Astronomy",
+    "o": "New Zealander",
+    "d": "1941–1981"
+   },
+   {
+    "n": "Beatrice Shilling",
+    "c": "Engineering",
+    "o": "English",
+    "d": "1909–1990"
+   },
+   {
+    "n": "Beatrice Wood",
+    "c": "Ceramics",
+    "o": "American",
+    "d": "1893–1998"
+   },
+   {
+    "n": "Beatriz Galindo",
+    "c": "Scholarship",
+    "o": "Spanish",
+    "d": "c.1465–1535"
+   },
+   {
+    "n": "Beatrice Lillie",
+    "c": "Comedy",
+    "o": "Canadian",
+    "d": "1894–1989"
+   },
+   {
+    "n": "Beatrix of the Netherlands",
+    "c": "Monarchy",
+    "o": "Dutch",
+    "d": "born 1938"
+   },
+   {
+    "n": "Beatrice Alexander",
+    "c": "Toymaking",
+    "o": "American",
+    "d": "1895–1990"
+   },
+   {
+    "n": "Beatriz Milhazes",
+    "c": "Painting",
+    "o": "Brazilian",
+    "d": "born 1960"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Beatrice",
+    "f": "Much Ado About Nothing"
+   },
+   {
+    "n": "Beatrice Prior",
+    "f": "Divergent"
+   },
+   {
+    "n": "Beatrice Baudelaire",
+    "f": "A Series of Unfortunate Events"
+   },
+   {
+    "n": "Beatrice Bottomwell",
+    "f": "The Girl Who Never Made Mistakes"
+   },
+   {
+    "n": "Beatrice the Bluebird",
+    "f": "Over the Garden Wall"
+   },
+   {
+    "n": "Beatrice Santello",
+    "f": "Night in the Woods"
+   }
+  ]
+ },
+ "carmen": {
+  "display": "Carmen",
+  "meaning": "Carmen means: the garden on the mountain — Our Lady of Mount Carmel.",
+  "number": "9",
+  "ntitle": "The Whole Heart",
+  "symbols": [
+   "Mars",
+   "Emerald",
+   "Larkspur",
+   "Royal Purple"
+  ],
+  "legends": [
+   {
+    "n": "Carmen Amaya",
+    "c": "Dance",
+    "o": "Spanish",
+    "d": "1918–1963"
+   },
+   {
+    "n": "Carmen Miranda",
+    "c": "Entertainment",
+    "o": "Brazilian",
+    "d": "1909–1955"
+   },
+   {
+    "n": "Carmen Laforet",
+    "c": "Literature",
+    "o": "Spanish",
+    "d": "1921–2004"
+   },
+   {
+    "n": "Carmen Conde",
+    "c": "Letters",
+    "o": "Spanish",
+    "d": "1907–1996"
+   },
+   {
+    "n": "Carmen Balcells",
+    "c": "Publishing",
+    "o": "Spanish",
+    "d": "1930–2015"
+   },
+   {
+    "n": "Carmen de Burgos",
+    "c": "Journalism",
+    "o": "Spanish",
+    "d": "1867–1932"
+   },
+   {
+    "n": "Carmen Herrera",
+    "c": "Art",
+    "o": "Cuban-American",
+    "d": "1915–2022"
+   },
+   {
+    "n": "Carmen McRae",
+    "c": "Jazz",
+    "o": "American",
+    "d": "1920–1994"
+   },
+   {
+    "n": "Carme Ruscalleda",
+    "c": "Cuisine",
+    "o": "Spanish",
+    "d": "born 1952"
+   },
+   {
+    "n": "Carmen Maura",
+    "c": "Film",
+    "o": "Spanish",
+    "d": "born 1945"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Carmen",
+    "f": "Carmen"
+   },
+   {
+    "n": "Carmen Sandiego",
+    "f": "Where in the World Is Carmen Sandiego?"
+   },
+   {
+    "n": "Carmen Jones",
+    "f": "Carmen Jones"
+   },
+   {
+    "n": "Carmen Cortez",
+    "f": "Spy Kids"
+   },
+   {
+    "n": "Carmen Lowell",
+    "f": "The Sisterhood of the Traveling Pants"
+   },
+   {
+    "n": "Carmen Berzatto",
+    "f": "The Bear"
+   }
+  ]
+ },
+ "caroline": {
+  "display": "Caroline",
+  "meaning": "Caroline means: free woman.",
+  "number": "5",
+  "ntitle": "The Free Spirit",
+  "symbols": [
+   "Mercury",
+   "Lapis Lazuli",
+   "Chrysanthemum",
+   "Pale Blue"
+  ],
+  "legends": [
+   {
+    "n": "Caroline Herschel",
+    "c": "Astronomy",
+    "o": "German-British",
+    "d": "1750–1848"
+   },
+   {
+    "n": "Caroline Norton",
+    "c": "Law & Reform",
+    "o": "English",
+    "d": "1808–1877"
+   },
+   {
+    "n": "Caroline Chisholm",
+    "c": "Humanitarian",
+    "o": "English-Australian",
+    "d": "1808–1877"
+   },
+   {
+    "n": "Caroline Haslett",
+    "c": "Engineering",
+    "o": "English",
+    "d": "1895–1957"
+   },
+   {
+    "n": "Carolina Maria de Jesus",
+    "c": "Literature",
+    "o": "Brazilian",
+    "d": "1914–1977"
+   },
+   {
+    "n": "Carolina Herrera",
+    "c": "Fashion",
+    "o": "Venezuelan",
+    "d": "b. 1939"
+   },
+   {
+    "n": "Caroline Aherne",
+    "c": "Comedy",
+    "o": "English",
+    "d": "1963–2016"
+   },
+   {
+    "n": "Caroline Wozniacki",
+    "c": "Tennis",
+    "o": "Danish",
+    "d": "b. 1990"
+   },
+   {
+    "n": "Carolina Marín",
+    "c": "Badminton",
+    "o": "Spanish",
+    "d": "b. 1993"
+   },
+   {
+    "n": "Caroline Shaw",
+    "c": "Music",
+    "o": "American",
+    "d": "b. 1982"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Caroline Bingley",
+    "f": "Pride and Prejudice"
+   },
+   {
+    "n": "Caroline Ingalls",
+    "f": "Little House on the Prairie"
+   },
+   {
+    "n": "Caroline Thibodeaux",
+    "f": "Caroline, or Change"
+   },
+   {
+    "n": "Caroline Forbes",
+    "f": "The Vampire Diaries"
+   },
+   {
+    "n": "Caroline Duffy",
+    "f": "Caroline in the City"
+   },
+   {
+    "n": "Caroline Channing",
+    "f": "2 Broke Girls"
+   }
+  ]
+ },
+ "christine": {
+  "display": "Christine",
+  "meaning": "Christine means: a Christian — one who belongs to Christ.",
+  "number": "6",
+  "ntitle": "The One They Lean On",
+  "symbols": [
+   "Venus",
+   "Citrine",
+   "Larkspur",
+   "Warm Gold"
+  ],
+  "legends": [
+   {
+    "n": "Christina, Queen of Sweden",
+    "c": "Crown & Learning",
+    "o": "Swedish",
+    "d": "1626–1689"
+   },
+   {
+    "n": "Christina Rossetti",
+    "c": "Poetry",
+    "o": "English",
+    "d": "1830–1894"
+   },
+   {
+    "n": "Christine Ladd-Franklin",
+    "c": "Logic & Colour Vision",
+    "o": "American",
+    "d": "1847–1930"
+   },
+   {
+    "n": "Krystyna Skarbek",
+    "c": "Wartime Courage",
+    "o": "Polish-British",
+    "d": "1908–1952"
+   },
+   {
+    "n": "Christine Jorgensen",
+    "c": "Public Life",
+    "o": "American",
+    "d": "1926–1989"
+   },
+   {
+    "n": "Christine Nöstlinger",
+    "c": "Children's Books",
+    "o": "Austrian",
+    "d": "1936–2018"
+   },
+   {
+    "n": "Christine Lagarde",
+    "c": "Finance",
+    "o": "French",
+    "d": "born 1956"
+   },
+   {
+    "n": "Christine Sinclair",
+    "c": "Football",
+    "o": "Canadian",
+    "d": "born 1983"
+   },
+   {
+    "n": "Christine McVie",
+    "c": "Songwriting",
+    "o": "English",
+    "d": "1943–2022"
+   },
+   {
+    "n": "Christina Koch",
+    "c": "Spaceflight",
+    "o": "American",
+    "d": "born 1979"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Christine Daaé",
+    "f": "The Phantom of the Opera"
+   },
+   {
+    "n": "Christine",
+    "f": "Christine"
+   },
+   {
+    "n": "Cristina Yang",
+    "f": "Grey's Anatomy"
+   },
+   {
+    "n": "Christine Chapel",
+    "f": "Star Trek"
+   },
+   {
+    "n": "Christine Campbell",
+    "f": "The New Adventures of Old Christine"
+   },
+   {
+    "n": "Kristin Shepard",
+    "f": "Dallas"
+   }
+  ]
+ },
+ "hannah": {
+  "display": "Hannah",
+  "meaning": "Hannah means: grace — the gift asked for.",
+  "number": "1",
+  "ntitle": "The Asking Voice",
+  "symbols": [
+   "The Sun",
+   "Pearl",
+   "Narcissus",
+   "Midnight Blue"
+  ],
+  "legends": [
+   {
+    "n": "Hannah Arendt",
+    "c": "Thought",
+    "o": "German-American",
+    "d": "1906–1975"
+   },
+   {
+    "n": "Hannah Höch",
+    "c": "Collage",
+    "o": "German",
+    "d": "1889–1978"
+   },
+   {
+    "n": "Hannah Glasse",
+    "c": "Cookery",
+    "o": "English",
+    "d": "1708–1770"
+   },
+   {
+    "n": "Hannah More",
+    "c": "Reform & Letters",
+    "o": "English",
+    "d": "1745–1833"
+   },
+   {
+    "n": "Hannah Szenes",
+    "c": "Poetry & Courage",
+    "o": "Hungarian-Israeli",
+    "d": "1921–1944"
+   },
+   {
+    "n": "Chana Orloff",
+    "c": "Sculpture",
+    "o": "Ukrainian-French-Israeli",
+    "d": "1888–1968"
+   },
+   {
+    "n": "Hanna Neumann",
+    "c": "Mathematics",
+    "o": "German-Australian",
+    "d": "1914–1971"
+   },
+   {
+    "n": "Hanna Sheehy-Skeffington",
+    "c": "Suffrage",
+    "o": "Irish",
+    "d": "1877–1946"
+   },
+   {
+    "n": "Hannah Kudjoe",
+    "c": "Independence",
+    "o": "Ghanaian",
+    "d": "1918–1986"
+   },
+   {
+    "n": "Hannah Gadsby",
+    "c": "Comedy",
+    "o": "Australian",
+    "d": "born 1978"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Hannah",
+    "f": "The Great Dictator"
+   },
+   {
+    "n": "Hannah Montana",
+    "f": "Hannah Montana"
+   },
+   {
+    "n": "Hannah Abbott",
+    "f": "Harry Potter"
+   },
+   {
+    "n": "Hannah",
+    "f": "Hannah and Her Sisters"
+   },
+   {
+    "n": "Hanna Marin",
+    "f": "Pretty Little Liars"
+   },
+   {
+    "n": "Hanna Heller",
+    "f": "Hanna"
+   }
+  ]
+ },
+ "josephine": {
+  "display": "Josephine",
+  "meaning": "Josephine means: God will add, God will increase.",
+  "number": "11",
+  "ntitle": "The Quiet Beacon",
+  "symbols": [
+   "The Moon",
+   "Amethyst",
+   "Violet",
+   "Paris Teal"
+  ],
+  "legends": [
+   {
+    "n": "Josephine Baker",
+    "c": "Stage",
+    "o": "American-French",
+    "d": "1906–1975"
+   },
+   {
+    "n": "Josephine Butler",
+    "c": "Reform",
+    "o": "British",
+    "d": "1828–1906"
+   },
+   {
+    "n": "Josephine Cochrane",
+    "c": "Invention",
+    "o": "American",
+    "d": "1839–1913"
+   },
+   {
+    "n": "Josephine Tey",
+    "c": "Crime fiction",
+    "o": "Scottish",
+    "d": "1896–1952"
+   },
+   {
+    "n": "Josephine St. Pierre Ruffin",
+    "c": "Journalism",
+    "o": "American",
+    "d": "1842–1924"
+   },
+   {
+    "n": "Josefina Molina",
+    "c": "Film",
+    "o": "Spanish",
+    "d": "1936–2026"
+   },
+   {
+    "n": "Josephine Siao",
+    "c": "Cinema",
+    "o": "Hong Kong",
+    "d": "1947–"
+   },
+   {
+    "n": "Josephine Peary",
+    "c": "Arctic",
+    "o": "American",
+    "d": "1863–1955"
+   },
+   {
+    "n": "Josefina Plá",
+    "c": "Letters",
+    "o": "Paraguayan",
+    "d": "1903–1999"
+   },
+   {
+    "n": "Josephine Barnes",
+    "c": "Medicine",
+    "o": "British",
+    "d": "1912–1999"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Jo March",
+    "f": "Little Women"
+   },
+   {
+    "n": "Aunt Josephine",
+    "f": "The Wide Window"
+   },
+   {
+    "n": "Josie McCoy",
+    "f": "Josie and the Pussycats"
+   },
+   {
+    "n": "Joséphine",
+    "f": "Joséphine, ange gardien"
+   },
+   {
+    "n": "Josephine the Singer",
+    "f": "Josephine the Singer"
+   },
+   {
+    "n": "Jo Bettany",
+    "f": "The Chalet School"
+   }
+  ]
+ },
+ "karen": {
+  "display": "Karen",
+  "meaning": "Karen means: pure.",
+  "number": "22",
+  "ntitle": "The Master Builder",
+  "symbols": [
+   "Uranus",
+   "Jade",
+   "Chrysanthemum",
+   "Lagoon Teal"
+  ],
+  "legends": [
+   {
+    "n": "Karen Blixen",
+    "c": "Literature",
+    "o": "Danish",
+    "d": "1885–1962"
+   },
+   {
+    "n": "Karen Jeppe",
+    "c": "Humanitarian",
+    "o": "Danish",
+    "d": "1876–1935"
+   },
+   {
+    "n": "Karin Boye",
+    "c": "Poetry",
+    "o": "Swedish",
+    "d": "1900–1941"
+   },
+   {
+    "n": "Karen Horney",
+    "c": "Psychoanalysis",
+    "o": "German-American",
+    "d": "1885–1952"
+   },
+   {
+    "n": "Karen Spärck Jones",
+    "c": "Computing",
+    "o": "British",
+    "d": "1935–2007"
+   },
+   {
+    "n": "Karen Armstrong",
+    "c": "Religion",
+    "o": "British",
+    "d": "Born 1944"
+   },
+   {
+    "n": "Karen Uhlenbeck",
+    "c": "Mathematics",
+    "o": "American",
+    "d": "Born 1942"
+   },
+   {
+    "n": "Karen Silkwood",
+    "c": "Labour",
+    "o": "American",
+    "d": "1946–1974"
+   },
+   {
+    "n": "Karen Carpenter",
+    "c": "Music",
+    "o": "American",
+    "d": "1950–1983"
+   },
+   {
+    "n": "Karen Kain",
+    "c": "Ballet",
+    "o": "Canadian",
+    "d": "Born 1951"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Karen",
+    "f": "The Red Shoes"
+   },
+   {
+    "n": "Karen Page",
+    "f": "Daredevil"
+   },
+   {
+    "n": "Karen Eiffel",
+    "f": "Stranger Than Fiction"
+   },
+   {
+    "n": "Karen Brewer",
+    "f": "Baby-Sitters Little Sister"
+   },
+   {
+    "n": "Karin",
+    "f": "Through a Glass Darkly"
+   },
+   {
+    "n": "Karen Walker",
+    "f": "Will & Grace"
+   }
+  ]
+ },
+ "laura": {
+  "display": "Laura",
+  "meaning": "Laura means: the laurel — the victor's crown.",
+  "number": "8",
+  "ntitle": "The Long Haul",
+  "symbols": [
+   "Saturn",
+   "Citrine",
+   "Marigold",
+   "Deep Indigo"
+  ],
+  "legends": [
+   {
+    "n": "Laura Bassi",
+    "c": "Physics",
+    "o": "Italian",
+    "d": "1711–1778"
+   },
+   {
+    "n": "Laura Cereta",
+    "c": "Letters",
+    "o": "Italian",
+    "d": "1469–1499"
+   },
+   {
+    "n": "Laura Secord",
+    "c": "Courage",
+    "o": "Canadian",
+    "d": "1775–1868"
+   },
+   {
+    "n": "Laura Bridgman",
+    "c": "Education",
+    "o": "American",
+    "d": "1829–1889"
+   },
+   {
+    "n": "Laura Ingalls Wilder",
+    "c": "Literature",
+    "o": "American",
+    "d": "1867–1957"
+   },
+   {
+    "n": "Laure Diebold",
+    "c": "Resistance",
+    "o": "French",
+    "d": "1915–1965"
+   },
+   {
+    "n": "Laura Ashley",
+    "c": "Design",
+    "o": "Welsh",
+    "d": "1925–1985"
+   },
+   {
+    "n": "Laura Esquivel",
+    "c": "Novels",
+    "o": "Mexican",
+    "d": "born 1950"
+   },
+   {
+    "n": "Laura Chinchilla",
+    "c": "Politics",
+    "o": "Costa Rican",
+    "d": "born 1959"
+   },
+   {
+    "n": "Laura Kenny",
+    "c": "Cycling",
+    "o": "British",
+    "d": "born 1992"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Laura Palmer",
+    "f": "Twin Peaks"
+   },
+   {
+    "n": "Laura Hunt",
+    "f": "Laura"
+   },
+   {
+    "n": "Laura Petrie",
+    "f": "The Dick Van Dyke Show"
+   },
+   {
+    "n": "Laura Wingfield",
+    "f": "The Glass Menagerie"
+   },
+   {
+    "n": "Laura Roslin",
+    "f": "Battlestar Galactica"
+   },
+   {
+    "n": "Laura Kinney",
+    "f": "Logan"
+   }
+  ]
+ },
+ "louise": {
+  "display": "Louise",
+  "meaning": "Louise means: renowned warrior.",
+  "number": "9",
+  "ntitle": "The Carer",
+  "symbols": [
+   "Mars",
+   "Citrine",
+   "Lily of the Valley",
+   "Slate"
+  ],
+  "legends": [
+   {
+    "n": "Louise Labé",
+    "c": "Poetry",
+    "o": "French",
+    "d": "c.1524 – 1566"
+   },
+   {
+    "n": "Louisa May Alcott",
+    "c": "Literature",
+    "o": "American",
+    "d": "1832–1888"
+   },
+   {
+    "n": "Louise Michel",
+    "c": "Revolution",
+    "o": "French",
+    "d": "1830–1905"
+   },
+   {
+    "n": "Luisa Capetillo",
+    "c": "Labour",
+    "o": "Puerto Rican",
+    "d": "1879–1922"
+   },
+   {
+    "n": "Louise Arner Boyd",
+    "c": "Exploration",
+    "o": "American",
+    "d": "1887–1972"
+   },
+   {
+    "n": "Luise Rainer",
+    "c": "Cinema",
+    "o": "German-American",
+    "d": "1910–2014"
+   },
+   {
+    "n": "Louise Brooks",
+    "c": "Film",
+    "o": "American",
+    "d": "1906–1985"
+   },
+   {
+    "n": "Louise Bourgeois",
+    "c": "Sculpture",
+    "o": "French-American",
+    "d": "1911–2010"
+   },
+   {
+    "n": "Louise Arbour",
+    "c": "Justice",
+    "o": "Canadian",
+    "d": "born 1947"
+   },
+   {
+    "n": "Louise Glück",
+    "c": "Poetry",
+    "o": "American",
+    "d": "1943–2023"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Louise Belcher",
+    "f": "Bob's Burgers"
+   },
+   {
+    "n": "Luisa Madrigal",
+    "f": "Encanto"
+   },
+   {
+    "n": "Louise Banks",
+    "f": "Arrival"
+   },
+   {
+    "n": "Louise Sawyer",
+    "f": "Thelma & Louise"
+   },
+   {
+    "n": "Louisa Clark",
+    "f": "Me Before You"
+   },
+   {
+    "n": "Louisa Musgrove",
+    "f": "Persuasion"
+   }
+  ]
+ },
+ "martha": {
+  "display": "Martha",
+  "meaning": "Martha means: the lady of the house — the mistress.",
+  "number": "7",
+  "ntitle": "The Steady Hand",
+  "symbols": [
+   "Neptune",
+   "Pearl",
+   "Larkspur",
+   "Meadow Green"
+  ],
+  "legends": [
+   {
+    "n": "Martha Graham",
+    "c": "Dance",
+    "o": "American",
+    "d": "1894-1991"
+   },
+   {
+    "n": "Martha Gellhorn",
+    "c": "War Reporting",
+    "o": "American",
+    "d": "1908-1998"
+   },
+   {
+    "n": "Martha Washington",
+    "c": "The Republic",
+    "o": "American",
+    "d": "1731-1802"
+   },
+   {
+    "n": "Marta Vieira da Silva",
+    "c": "Football",
+    "o": "Brazilian",
+    "d": "1986-"
+   },
+   {
+    "n": "Martha Coston",
+    "c": "Invention",
+    "o": "American",
+    "d": "1826-1904"
+   },
+   {
+    "n": "Martha Matilda Harper",
+    "c": "Business",
+    "o": "Canadian-American",
+    "d": "1857-1950"
+   },
+   {
+    "n": "Martha Nussbaum",
+    "c": "Philosophy",
+    "o": "American",
+    "d": "1947-"
+   },
+   {
+    "n": "Marta Abreu",
+    "c": "Philanthropy",
+    "o": "Cuban",
+    "d": "1845-1909"
+   },
+   {
+    "n": "Martha Argerich",
+    "c": "Piano",
+    "o": "Argentine",
+    "d": "1941-"
+   },
+   {
+    "n": "Marthe Gautier",
+    "c": "Genetics",
+    "o": "French",
+    "d": "1925-2022"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Martha Jones",
+    "f": "Doctor Who"
+   },
+   {
+    "n": "Marta Cabrera",
+    "f": "Knives Out"
+   },
+   {
+    "n": "Martha",
+    "f": "Who's Afraid of Virginia Woolf?"
+   },
+   {
+    "n": "Martha Costello",
+    "f": "Silk"
+   },
+   {
+    "n": "Martha May Whovier",
+    "f": "How the Grinch Stole Christmas"
+   },
+   {
+    "n": "Martha Speaks",
+    "f": "Martha Speaks"
+   }
+  ]
+ },
+ "natalie": {
+  "display": "Natalie",
+  "meaning": "Natalie means: born at Christmas — the birthday itself.",
+  "number": "8",
+  "ntitle": "The Quiet Engine",
+  "symbols": [
+   "Saturn",
+   "Amethyst",
+   "Narcissus",
+   "Warm Gold"
+  ],
+  "legends": [
+   {
+    "n": "Nathalie Sarraute",
+    "c": "The Novel",
+    "o": "French",
+    "d": "1900–1999"
+   },
+   {
+    "n": "Natalia Goncharova",
+    "c": "Painting",
+    "o": "Russian-French",
+    "d": "1881–1962"
+   },
+   {
+    "n": "Natalie Clifford Barney",
+    "c": "Letters & Salon",
+    "o": "American",
+    "d": "1876–1972"
+   },
+   {
+    "n": "Natalie Wood",
+    "c": "Screen",
+    "o": "American",
+    "d": "1938–1981"
+   },
+   {
+    "n": "Natalia Ginzburg",
+    "c": "Literature & Politics",
+    "o": "Italian",
+    "d": "1916–1991"
+   },
+   {
+    "n": "Natalie Curtis",
+    "c": "Music",
+    "o": "American",
+    "d": "1875–1921"
+   },
+   {
+    "n": "Natalia Bessmertnova",
+    "c": "Ballet",
+    "o": "Russian",
+    "d": "1941–2008"
+   },
+   {
+    "n": "Natalie Massenet",
+    "c": "Business",
+    "o": "American-British",
+    "d": "born 1965"
+   },
+   {
+    "n": "Natalie du Toit",
+    "c": "Swimming",
+    "o": "South African",
+    "d": "born 1984"
+   },
+   {
+    "n": "Natalya Estemirova",
+    "c": "Human Rights",
+    "o": "Russian",
+    "d": "1958–2009"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Natasha Rostova",
+    "f": "War and Peace"
+   },
+   {
+    "n": "Natasha Romanoff",
+    "f": "Black Widow"
+   },
+   {
+    "n": "Natalya Simonova",
+    "f": "GoldenEye"
+   },
+   {
+    "n": "Natalie Hillard",
+    "f": "Mrs Doubtfire"
+   },
+   {
+    "n": "Natalie",
+    "f": "Love Actually"
+   },
+   {
+    "n": "Natalie Prior",
+    "f": "Divergent"
+   }
+  ]
+ },
+ "patricia": {
+  "display": "Patricia",
+  "meaning": "Patricia means: noble, of the fathers' line.",
+  "number": "5",
+  "ntitle": "The Quicksilver",
+  "symbols": [
+   "Mercury",
+   "Pearl",
+   "Poppy",
+   "Royal Blue"
+  ],
+  "legends": [
+   {
+    "n": "Patricia Highsmith",
+    "c": "Crime Fiction",
+    "o": "American",
+    "d": "1921–1995"
+   },
+   {
+    "n": "Patricia Hill Collins",
+    "c": "Sociology",
+    "o": "American",
+    "d": "born 1948"
+   },
+   {
+    "n": "Patricia Bath",
+    "c": "Ophthalmology",
+    "o": "American",
+    "d": "1942–2019"
+   },
+   {
+    "n": "Patricia Goldman-Rakic",
+    "c": "Neuroscience",
+    "o": "American",
+    "d": "1937–2003"
+   },
+   {
+    "n": "Patricia Routledge",
+    "c": "Stage & Comedy",
+    "o": "English",
+    "d": "1929–2025"
+   },
+   {
+    "n": "Lady Patricia Ramsay",
+    "c": "Royalty & Painting",
+    "o": "British",
+    "d": "1886–1974"
+   },
+   {
+    "n": "Patricia Grace",
+    "c": "Literature",
+    "o": "New Zealander",
+    "d": "born 1937"
+   },
+   {
+    "n": "Patrizia Cavalli",
+    "c": "Poetry",
+    "o": "Italian",
+    "d": "1947–2022"
+   },
+   {
+    "n": "Patricia Espinosa",
+    "c": "Diplomacy",
+    "o": "Mexican",
+    "d": "born 1958"
+   },
+   {
+    "n": "Patrícia Mamona",
+    "c": "Athletics",
+    "o": "Portuguese",
+    "d": "born 1988"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Patsy Stone",
+    "f": "Absolutely Fabulous"
+   },
+   {
+    "n": "Pat Butcher",
+    "f": "EastEnders"
+   },
+   {
+    "n": "Patty Bouvier",
+    "f": "The Simpsons"
+   },
+   {
+    "n": "Patsy Walker",
+    "f": "Marvel Comics"
+   },
+   {
+    "n": "Patricia Whitmore",
+    "f": "Independence Day"
+   },
+   {
+    "n": "Patricia Holm",
+    "f": "The Saint"
+   }
+  ]
+ },
+ "rachel": {
+  "display": "Rachel",
+  "meaning": "Rachel means: ewe — the gentlest of the flock.",
+  "number": "11",
+  "ntitle": "The Kindled Lamp",
+  "symbols": [
+   "The Moon",
+   "Emerald",
+   "Narcissus",
+   "Meadow Green"
+  ],
+  "legends": [
+   {
+    "n": "Rachel Carson",
+    "c": "Science & Writing",
+    "o": "American",
+    "d": "1907–1964"
+   },
+   {
+    "n": "Rachel Ruysch",
+    "c": "Painting",
+    "o": "Dutch",
+    "d": "1664–1750"
+   },
+   {
+    "n": "Rahel Varnhagen",
+    "c": "Salon & Letters",
+    "o": "German",
+    "d": "1771–1833"
+   },
+   {
+    "n": "Rachel Bluwstein",
+    "c": "Poetry",
+    "o": "Israeli",
+    "d": "1890–1931"
+   },
+   {
+    "n": "Raquel Meller",
+    "c": "Song & Screen",
+    "o": "Spanish",
+    "d": "1888–1962"
+   },
+   {
+    "n": "Rachel de Queiroz",
+    "c": "Literature",
+    "o": "Brazilian",
+    "d": "1910–2003"
+   },
+   {
+    "n": "Rachel Fuller Brown",
+    "c": "Chemistry",
+    "o": "American",
+    "d": "1898–1980"
+   },
+   {
+    "n": "Rachel Whiteread",
+    "c": "Sculpture",
+    "o": "British",
+    "d": "born 1963"
+   },
+   {
+    "n": "Rachael Heyhoe Flint",
+    "c": "Cricket",
+    "o": "English",
+    "d": "1939–2017"
+   },
+   {
+    "n": "Rachel Robinson",
+    "c": "Nursing & Civil Rights",
+    "o": "American",
+    "d": "born 1922"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Rachel Green",
+    "f": "Friends"
+   },
+   {
+    "n": "Rachael",
+    "f": "Blade Runner"
+   },
+   {
+    "n": "Rachel Lynde",
+    "f": "Anne of Green Gables"
+   },
+   {
+    "n": "Rachel Dawes",
+    "f": "Batman Begins"
+   },
+   {
+    "n": "Rachel Berry",
+    "f": "Glee"
+   },
+   {
+    "n": "Rachel Verinder",
+    "f": "The Moonstone"
+   }
+  ]
+ },
+ "rebecca": {
+  "display": "Rebecca",
+  "meaning": "Rebecca means: to bind fast — a knot that holds.",
+  "number": "1",
+  "ntitle": "The Deciding Voice",
+  "symbols": [
+   "The Sun",
+   "Pearl",
+   "Daffodil",
+   "Ink Navy"
+  ],
+  "legends": [
+   {
+    "n": "Rebecca Nurse",
+    "c": "Salem, 1692",
+    "o": "English-American",
+    "d": "1621–1692"
+   },
+   {
+    "n": "Rebecca Protten",
+    "c": "Preaching",
+    "o": "Antiguan-Moravian",
+    "d": "1718–1780"
+   },
+   {
+    "n": "Rebecca Gratz",
+    "c": "Education & Charity",
+    "o": "American",
+    "d": "1781–1869"
+   },
+   {
+    "n": "Rebecca Lee Crumpler",
+    "c": "Medicine",
+    "o": "American",
+    "d": "1831–1895"
+   },
+   {
+    "n": "Rebecca Clarke",
+    "c": "Music",
+    "o": "English",
+    "d": "1886–1979"
+   },
+   {
+    "n": "Rebecca West",
+    "c": "Letters",
+    "o": "British",
+    "d": "1892–1983"
+   },
+   {
+    "n": "Rebecca Horn",
+    "c": "Art",
+    "o": "German",
+    "d": "1944–2024"
+   },
+   {
+    "n": "Rebeca Grynspan",
+    "c": "Economics & Diplomacy",
+    "o": "Costa Rican",
+    "d": "born 1955"
+   },
+   {
+    "n": "Rebecca Solnit",
+    "c": "Essays",
+    "o": "American",
+    "d": "born 1961"
+   },
+   {
+    "n": "Rebeca Andrade",
+    "c": "Gymnastics",
+    "o": "Brazilian",
+    "d": "born 1999"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Rebecca of York",
+    "f": "Ivanhoe"
+   },
+   {
+    "n": "Becky Sharp",
+    "f": "Vanity Fair"
+   },
+   {
+    "n": "Becky Thatcher",
+    "f": "The Adventures of Tom Sawyer"
+   },
+   {
+    "n": "Rebecca Randall",
+    "f": "Rebecca of Sunnybrook Farm"
+   },
+   {
+    "n": "Rebecca de Winter",
+    "f": "Rebecca"
+   },
+   {
+    "n": "Rebecca Welton",
+    "f": "Ted Lasso"
+   }
+  ]
+ },
+ "teresa": {
+  "display": "Teresa",
+  "meaning": "Teresa means: the harvester — or the woman from Therasia.",
+  "number": "5",
+  "ntitle": "The Seeker",
+  "symbols": [
+   "Mercury",
+   "Pearl",
+   "Marigold",
+   "Royal Blue"
+  ],
+  "legends": [
+   {
+    "n": "Mother Teresa",
+    "c": "Service",
+    "o": "Albanian-Indian",
+    "d": "1910–1997"
+   },
+   {
+    "n": "Teresa Carreño",
+    "c": "Piano",
+    "o": "Venezuelan",
+    "d": "1853–1917"
+   },
+   {
+    "n": "Teresa Cristina of the Two Sicilies",
+    "c": "Empress & Patron",
+    "o": "Neapolitan-Brazilian",
+    "d": "1822–1889"
+   },
+   {
+    "n": "Theresa May",
+    "c": "Politics",
+    "o": "British",
+    "d": "born 1956"
+   },
+   {
+    "n": "Teresa Wright",
+    "c": "Screen",
+    "o": "American",
+    "d": "1918–2005"
+   },
+   {
+    "n": "Teresa Berganza",
+    "c": "Opera",
+    "o": "Spanish",
+    "d": "1933–2022"
+   },
+   {
+    "n": "Teresa Teng",
+    "c": "Song",
+    "o": "Taiwanese",
+    "d": "1953–1995"
+   },
+   {
+    "n": "Theresa Kachindamoto",
+    "c": "Chieftaincy",
+    "o": "Malawian",
+    "d": "1958–2025"
+   },
+   {
+    "n": "Thérèse Casgrain",
+    "c": "Reform",
+    "o": "Canadian",
+    "d": "1896–1981"
+   },
+   {
+    "n": "Teresa de Cartagena",
+    "c": "Letters",
+    "o": "Castilian",
+    "d": "c.1425–after 1478"
+   }
+  ],
+  "fiction": [
+   {
+    "n": "Teresa Panza",
+    "f": "Don Quixote"
+   },
+   {
+    "n": "Teresa di Vicenzo",
+    "f": "On Her Majesty's Secret Service"
+   },
+   {
+    "n": "Tereza",
+    "f": "The Unbearable Lightness of Being"
+   },
+   {
+    "n": "Teresa Mendoza",
+    "f": "La Reina del Sur"
+   },
+   {
+    "n": "Teresa Lisbon",
+    "f": "The Mentalist"
+   },
+   {
+    "n": "Teresa Agnes",
+    "f": "The Maze Runner"
    }
   ]
  }
