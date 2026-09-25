@@ -625,6 +625,100 @@ strong { font-weight: 600; color: var(--navy); }
 .name-cta { text-align: center; padding: 1rem 1.5rem 4rem; }
 .name-cta .btn { margin: 0 0.4rem 0.8rem; }
 
+/* ---------- order page ---------- */
+.order-container { max-width: 1080px; }
+.mkt-label {
+  font-family: 'Cinzel', serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--navy);
+  margin-bottom: 1.2rem;
+}
+.mkt-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2.6rem;
+}
+.mkt-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'Cinzel', serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--navy);
+  background: var(--cream-light);
+  border: 1px solid var(--gold);
+  padding: 0.45rem 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.mkt-btn img { width: 30px; height: auto; border: 1px solid rgba(27,58,107,0.25); }
+.mkt-btn:hover { background: rgba(201,168,76,0.18); }
+.mkt-btn.active { background: var(--navy); color: var(--gold-soft); border-color: var(--navy); }
+.order-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.9rem;
+}
+.order-card {
+  border: 1px solid var(--gold);
+  background: var(--cream-light);
+  padding: 1rem 1.1rem 1.05rem;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  scroll-margin-top: 90px;
+}
+.order-card:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(27,58,107,0.12); }
+.order-card:target { outline: 2px solid var(--gold); outline-offset: 3px; }
+.order-card-name {
+  display: block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.45rem;
+  font-weight: 600;
+  color: var(--navy);
+  text-decoration: none;
+  margin-bottom: 0.35rem;
+}
+.order-card-name:hover { color: var(--gold); }
+.order-link {
+  font-family: 'Cinzel', serif;
+  font-size: 0.66rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  text-decoration: none;
+  border-bottom: 1px solid var(--gold);
+  padding-bottom: 1px;
+}
+.order-link:hover { color: var(--navy); border-bottom-color: var(--navy); }
+.order-card.soon { opacity: 0.55; }
+.order-soon {
+  font-family: 'Cinzel', serif;
+  font-size: 0.66rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--navy);
+  opacity: 0.7;
+}
+.order-note {
+  text-align: center;
+  font-style: italic;
+  margin-top: 2.6rem;
+  color: var(--navy);
+  opacity: 0.8;
+}
+@media (max-width: 640px) {
+  .mkt-btn span { display: none; }
+  .mkt-btn { padding: 0.45rem 0.55rem; }
+  .order-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
 /* ---------- footer ---------- */
 footer {
   background: var(--navy-deep);

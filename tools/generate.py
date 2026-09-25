@@ -32,6 +32,29 @@ NAMES = BOYS + GIRLS
 
 COUNT_WORDS = {73: "Seventy-Three", 100: "One Hundred"}
 
+# Amazon marketplaces enabled on the KDP account (all of them)
+MARKETPLACES = [
+    ("us", "com",    "United States"),
+    ("uk", "co.uk",  "United Kingdom"),
+    ("ca", "ca",     "Canada"),
+    ("au", "com.au", "Australia"),
+    ("de", "de",     "Germany"),
+    ("fr", "fr",     "France"),
+    ("es", "es",     "Spain"),
+    ("it", "it",     "Italy"),
+    ("nl", "nl",     "Netherlands"),
+    ("be", "com.be", "Belgium"),
+    ("ie", "ie",     "Ireland"),
+    ("pl", "pl",     "Poland"),
+    ("se", "se",     "Sweden"),
+    ("jp", "co.jp",  "Japan"),
+]
+
+# ASINs of the books already live on Amazon (tools/asins.json).
+# Re-scan when new books go live: search amazon.co.uk for
+# "name fame {name} 10 legends" and take data-asin of the matching result.
+ASINS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "asins.json")
+
 JOHN = {
     "display": "John",
     "meaning": "John means: God is gracious.",
@@ -145,6 +168,7 @@ PAGE_TMPL = """<!DOCTYPE html>
     <a href="../#symbols">Symbols</a>
     <a href="../#discover">Discover Your Name</a>
     <a href="../#collection">Collection</a>
+    <a href="../order.html">Order</a>
   </div>
 </nav>
 
@@ -200,7 +224,8 @@ PAGE_TMPL = """<!DOCTYPE html>
   </section>
 
   <div class="name-cta section-cream">
-    <a class="btn btn-gold" href="../#collection">Explore all {count} names</a>
+    <a class="btn btn-gold" href="../order.html#{slug}">Order this book on Amazon</a>
+    <a class="btn btn-ghost" href="../#collection">Explore all {count} names</a>
     <a class="btn btn-ghost" href="../?name={slug}#discover">Reveal this name's number</a>
   </div>
 </main>
@@ -263,9 +288,133 @@ def write_pages(books):
         open(os.path.join(SITE, "names", slug + ".html"), "w", encoding="utf-8").write(page)
 
 
+ORDER_TMPL = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Order the Books — Name Fame</title>
+<meta name="description" content="Order any of the {count} Name Fame illustrated keepsake books on Amazon — available in the United States, United Kingdom, Canada, Australia, Germany, France, Spain, Italy and more.">
+<link rel="canonical" href="{base}/order.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{base}/order.html">
+<meta property="og:site_name" content="Name Fame">
+<meta property="og:title" content="Order the Books — Name Fame">
+<meta property="og:description" content="Order any of the {count} Name Fame illustrated keepsake books on your local Amazon.">
+<meta property="og:image" content="{base}/images/cover_john_front.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#12294E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%231B3A6B'/%3E%3Ctext x='50' y='72' font-size='62' text-anchor='middle' fill='%23C9A84C'%3E%E2%9C%A6%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cinzel:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav id="nav">
+  <a href="./" class="nav-logo"><img src="images/logo.webp" alt="Name Fame" width="1200" height="344"></a>
+  <div class="nav-links">
+    <a href="./#inside">Inside the Book</a>
+    <a href="./#symbols">Symbols</a>
+    <a href="./#discover">Discover Your Name</a>
+    <a href="./#collection">Collection</a>
+    <a href="order.html">Order</a>
+  </div>
+</nav>
+
+<header class="name-hero">
+  <p class="name-breadcrumb"><a href="./">Name Fame</a> &nbsp;✦&nbsp; Order</p>
+  <p class="kicker kicker-gold">The Collection on Amazon</p>
+  <h1>Order the Books</h1>
+  <p class="name-meaning">Every <em>Name Fame</em> book is a 6×9″ illustrated paperback,
+  printed and delivered by Amazon. Choose your country, then pick a name.</p>
+</header>
+
+<section class="name-section section-cream">
+  <div class="container order-container">
+    <p class="mkt-label">✦&ensp;Choose your Amazon store</p>
+    <div class="mkt-bar" id="mkt-bar">
+{mkt_html}
+    </div>
+    <div class="order-grid">
+{cards_html}
+    </div>
+    <p class="order-note">{avail} of the {count} books are on Amazon today, and new titles
+    go live every week — the rest are marked “coming soon”.</p>
+  </div>
+</section>
+
+<footer>
+  <img class="footer-logo" src="images/logo.webp" alt="Name Fame" width="1200" height="344" loading="lazy">
+  <p class="footer-tag">10 Legends ✦ 1 Name ✦ Your Story</p>
+  <p class="footer-copy">© 2026 Name Fame. All rights reserved.</p>
+</footer>
+
+<script>
+(function () {{
+  var links = document.querySelectorAll('.order-link');
+  var btns = document.querySelectorAll('.mkt-btn');
+  function setMarket(tld) {{
+    links.forEach(function (a) {{
+      a.href = 'https://www.amazon.' + tld + '/dp/' + a.dataset.asin;
+    }});
+    btns.forEach(function (b) {{
+      b.classList.toggle('active', b.dataset.tld === tld);
+    }});
+    try {{ localStorage.setItem('nf-market', tld); }} catch (e) {{}}
+  }}
+  btns.forEach(function (b) {{
+    b.addEventListener('click', function () {{ setMarket(b.dataset.tld); }});
+  }});
+  var saved = null;
+  try {{ saved = localStorage.getItem('nf-market'); }} catch (e) {{}}
+  if (!saved) {{
+    var lang = (navigator.language || '').toLowerCase();
+    var guess = {{ 'en-gb': 'co.uk', 'fr': 'fr', 'de': 'de', 'es': 'es', 'it': 'it',
+                  'nl': 'nl', 'pl': 'pl', 'sv': 'se', 'ja': 'co.jp',
+                  'en-ca': 'ca', 'fr-ca': 'ca', 'en-au': 'com.au' }};
+    saved = guess[lang] || guess[lang.split('-')[0]] || 'com';
+  }}
+  setMarket(saved);
+}})();
+</script>
+</body>
+</html>
+"""
+
+
+def write_order(books):
+    e = html.escape
+    asins = json.load(open(ASINS_FILE, encoding="utf-8"))
+    mkt_html = "\n".join(
+        f'      <button class="mkt-btn" type="button" data-tld="{tld}">'
+        f'<img src="images/flag_{code}.jpg" alt="{label}" width="42" height="30" loading="lazy">'
+        f'<span>{label}</span></button>'
+        for code, tld, label in MARKETPLACES)
+    cards = []
+    for s in NAMES:
+        b = books[s]
+        disp = e(b["display"])
+        asin = asins.get(s)
+        if asin:
+            action = (f'<a class="order-link" data-asin="{asin}" '
+                      f'href="https://www.amazon.com/dp/{asin}" target="_blank" rel="noopener">'
+                      f'Order on Amazon ↗</a>')
+        else:
+            action = '<span class="order-soon">Coming soon</span>'
+        cards.append(
+            f'      <div class="order-card{"" if asin else " soon"}" id="{s}">'
+            f'<a class="order-card-name" href="names/{s}.html">{disp}</a>'
+            f'{action}</div>')
+    page = ORDER_TMPL.format(base=BASE_URL, count=len(books), avail=len(asins),
+                             mkt_html=mkt_html, cards_html="\n".join(cards))
+    open(os.path.join(SITE, "order.html"), "w", encoding="utf-8").write(page)
+
+
 def write_sitemap(books):
     today = datetime.date.today().isoformat()
-    urls = [f"{BASE_URL}/"] + [f"{BASE_URL}/names/{s}.html" for s in NAMES]
+    urls = [f"{BASE_URL}/", f"{BASE_URL}/order.html"] + [f"{BASE_URL}/names/{s}.html" for s in NAMES]
     items = "\n".join(
         f" <url><loc>{u}</loc><lastmod>{today}</lastmod></url>" for u in urls)
     xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -329,6 +478,7 @@ if __name__ == "__main__":
     assert len(books) == len(NAMES) == len(set(NAMES)), (len(books), len(NAMES))
     write_books_js(books)
     write_pages(books)
+    write_order(books)
     write_sitemap(books)
     patch_index(books)
-    print(f"OK \u2014 {len(books)} books: books.js, names/*.html, sitemap.xml, robots.txt, index patched")
+    print(f"OK \u2014 {len(books)} books: books.js, names/*.html, order.html, sitemap.xml, robots.txt, index patched")
