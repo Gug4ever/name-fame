@@ -459,6 +459,13 @@ def patch_index(books):
          "description": "Publisher of the Name Fame illustrated keepsake book series: "
                         "one first name, one book \u2014 history, symbols, numerology and "
                         "ten famous bearers per name."},
+        {"@context": "https://schema.org", "@type": "VideoObject",
+         "name": "Name Fame — Turn the Pages",
+         "description": "A look inside the Name Fame illustrated keepsake collection "
+                        "and the book Name Fame: John — cover, pages and legends.",
+         "thumbnailUrl": BASE_URL + "/images/video_poster.jpg",
+         "contentUrl": BASE_URL + "/video/name-fame-john.mp4",
+         "uploadDate": "2026-09-29"},
         {"@context": "https://schema.org", "@type": "ItemList",
          "name": "The Name Fame Collection",
          "numberOfItems": n,
