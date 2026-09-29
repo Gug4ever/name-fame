@@ -3,30 +3,30 @@ const BOOKS = {
  "john": {
   "display": "John",
   "meaning": "John means: God is gracious.",
-  "number": 2,
+  "number": "2",
   "ntitle": "The Diplomat",
   "symbols": [
-   "Mercury",
-   "Blue Sapphire",
-   "White Lily",
-   "Royal Blue"
+   "The Moon",
+   "Jade",
+   "Rose",
+   "Deep Green"
   ],
   "legends": [
    {
     "n": "John Lennon",
-    "c": "Music",
+    "c": "Music & Peace",
     "o": "British",
     "d": "1940–1980"
    },
    {
     "n": "John F. Kennedy",
-    "c": "Politics & History",
+    "c": "Politics",
     "o": "American",
     "d": "1917–1963"
    },
    {
     "n": "John Coltrane",
-    "c": "Music & Jazz",
+    "c": "Jazz Music",
     "o": "American",
     "d": "1926–1967"
    },
@@ -38,9 +38,9 @@ const BOOKS = {
    },
    {
     "n": "John McEnroe",
-    "c": "Sport",
+    "c": "Tennis",
     "o": "American",
-    "d": "b. 1959"
+    "d": "Born 1959"
    },
    {
     "n": "John Steinbeck",
@@ -52,7 +52,7 @@ const BOOKS = {
     "n": "John Legend",
     "c": "Music",
     "o": "American",
-    "d": "b. 1978"
+    "d": "Born 1978"
    },
    {
     "n": "John Adams",
@@ -62,13 +62,13 @@ const BOOKS = {
    },
    {
     "n": "John Cleese",
-    "c": "Comedy",
+    "c": "Comedy & Film",
     "o": "British",
-    "d": "b. 1939"
+    "d": "Born 1939"
    },
    {
     "n": "John Muir",
-    "c": "Nature & Conservation",
+    "c": "Exploration",
     "o": "Scottish-American",
     "d": "1838–1914"
    }
@@ -88,11 +88,11 @@ const BOOKS = {
    },
    {
     "n": "John Wick",
-    "f": "John Wick films"
+    "f": "John Wick"
    },
    {
     "n": "John Doe",
-    "f": "The everyman of law and legend"
+    "f": "Universal — Legal & Cultural"
    },
    {
     "n": "Long John Silver",
@@ -6600,21 +6600,27 @@ const BOOKS = {
    }
   ]
  },
- "diana": {
-  "display": "Diana",
-  "meaning": "Diana means: divine · of the shining sky.",
-  "number": "2",
-  "ntitle": "The Queen of Hearts",
+ "diane": {
+  "display": "Diane",
+  "meaning": "Diane means: divine · of the shining sky.",
+  "number": "6",
+  "ntitle": "The One Who Holds The Line",
   "symbols": [
-   "The Moon",
-   "Pearl",
+   "Venus",
+   "Diamond",
    "Rose",
-   "Terracotta"
+   "Deep Crimson"
   ],
   "legends": [
    {
+    "n": "Diane de Poitiers",
+    "c": "The French Court",
+    "o": "French",
+    "d": "1500–1566"
+   },
+   {
     "n": "Diana, Princess of Wales",
-    "c": "Hearts",
+    "c": "Public Life",
     "o": "British",
     "d": "1961–1997"
    },
@@ -6622,7 +6628,13 @@ const BOOKS = {
     "n": "Diana Ross",
     "c": "Music",
     "o": "American",
-    "d": "Born 1944"
+    "d": "born 1944"
+   },
+   {
+    "n": "Diane Arbus",
+    "c": "Photography",
+    "o": "American",
+    "d": "1923–1971"
    },
    {
     "n": "Dian Fossey",
@@ -6631,72 +6643,60 @@ const BOOKS = {
     "d": "1932–1985"
    },
    {
-    "n": "Diana Nyad",
-    "c": "Endurance",
-    "o": "American",
-    "d": "Born 1949"
-   },
-   {
-    "n": "Diana Vreeland",
-    "c": "Style",
-    "o": "American",
-    "d": "1903–1989"
-   },
-   {
-    "n": "Diana Rigg",
+    "n": "Diahann Carroll",
     "c": "Stage & Screen",
+    "o": "American",
+    "d": "1935–2019"
+   },
+   {
+    "n": "Diane Keaton",
+    "c": "Film",
+    "o": "American",
+    "d": "1946–2025"
+   },
+   {
+    "n": "Diane von Fürstenberg",
+    "c": "Fashion",
+    "o": "Belgian-American",
+    "d": "born 1946"
+   },
+   {
+    "n": "Diane Abbott",
+    "c": "Parliament",
     "o": "British",
-    "d": "1938–2020"
+    "d": "born 1953"
    },
    {
-    "n": "Diane de Poitiers",
-    "c": "Power",
-    "o": "French",
-    "d": "1500–1566"
-   },
-   {
-    "n": "Diana Wynne Jones",
-    "c": "Fantasy",
-    "o": "British",
-    "d": "1934–2011"
-   },
-   {
-    "n": "Diana Trujillo",
-    "c": "Space",
-    "o": "Colombian-American",
-    "d": "Born 1983"
-   },
-   {
-    "n": "Diana Apcar",
-    "c": "Diplomacy",
-    "o": "Armenian",
-    "d": "1859–1937"
+    "n": "Diane Leather",
+    "c": "Athletics",
+    "o": "English",
+    "d": "1933–2018"
    }
   ],
   "fiction": [
    {
+    "n": "Diane Chambers",
+    "f": "Cheers"
+   },
+   {
+    "n": "Diane Lockhart",
+    "f": "The Good Wife"
+   },
+   {
+    "n": "Diane Court",
+    "f": "Say Anything..."
+   },
+   {
+    "n": "Diane Nguyen",
+    "f": "BoJack Horseman"
+   },
+   {
+    "n": "Diane",
+    "f": "Twin Peaks"
+   },
+   {
     "n": "Diana Prince — Wonder Woman",
     "f": "Wonder Woman"
-   },
-   {
-    "n": "Diana Barry",
-    "f": "Anne of Green Gables"
-   },
-   {
-    "n": "Diana the Acrobat",
-    "f": "Dungeons & Dragons"
-   },
-   {
-    "n": "Diana Cavendish",
-    "f": "Little Witch Academia"
-   },
-   {
-    "n": "Diana",
-    "f": "Sailor Moon"
-   },
-   {
-    "n": "Diana Bishop",
-    "f": "A Discovery of Witches"
    }
   ]
  },

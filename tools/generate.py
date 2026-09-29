@@ -23,7 +23,7 @@ BOYS = ["john","james","william","henry","michael","alexander","daniel","benjami
         "luis","mark","martin","stephen","francis",
         "adam","andrew","antonio","eric","gabriel","isaac","matthew","miguel","patrick","timothy"]
 GIRLS = ["olivia","emma","charlotte","sophia","amelia","isabella","emily","victoria",
-         "elizabeth","mary","anne","catherine","margaret","jane","alice","grace","diana",
+         "elizabeth","mary","anne","catherine","margaret","jane","alice","grace","diane",
          "helen","eleanor","florence","clara","anna","julia","sarah",
          "eva","ella","lucy","maria","rose","michelle","jennifer","barbara","susan",
          "alexandra","angela","beatrice","carmen","caroline","christine","hannah","josephine",
@@ -55,41 +55,6 @@ MARKETPLACES = [
 # "name fame {name} 10 legends" and take data-asin of the matching result.
 ASINS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "asins.json")
 
-JOHN = {
-    "display": "John",
-    "meaning": "John means: God is gracious.",
-    "number": 2, "ntitle": "The Diplomat",
-    "symbols": ["Mercury", "Blue Sapphire", "White Lily", "Royal Blue"],
-    "etymology": ("John comes from the Hebrew Yohanan — \u201cGod is gracious\u201d. Carried by John the "
-                  "Baptist and John the Apostle, it spread with Christianity into almost every "
-                  "language on Earth: Juan, Jean, Giovanni, Ivan, Se\u00e1n, Hans, Jo\u00e3o. For centuries it "
-                  "was the most common male name of the English-speaking world — a name so "
-                  "universal it became shorthand for \u201canyone\u201d, and yet borne by some of the most "
-                  "singular people in history."),
-    "portrait": ("Twos are the diplomats of the number cycle: intuitive, patient, and happiest "
-                 "building bridges rather than walls. A name that resolves to two carries a gift "
-                 "for listening, for timing, and for the quiet work that holds people together."),
-    "legends": [
-        {"n": "John Lennon", "c": "Music", "o": "British", "d": "1940\u20131980"},
-        {"n": "John F. Kennedy", "c": "Politics & History", "o": "American", "d": "1917\u20131963"},
-        {"n": "John Coltrane", "c": "Music & Jazz", "o": "American", "d": "1926\u20131967"},
-        {"n": "John Wayne", "c": "Cinema", "o": "American", "d": "1907\u20131979"},
-        {"n": "John McEnroe", "c": "Sport", "o": "American", "d": "b. 1959"},
-        {"n": "John Steinbeck", "c": "Literature", "o": "American", "d": "1902\u20131968"},
-        {"n": "John Legend", "c": "Music", "o": "American", "d": "b. 1978"},
-        {"n": "John Adams", "c": "Politics & History", "o": "American", "d": "1735\u20131826"},
-        {"n": "John Cleese", "c": "Comedy", "o": "British", "d": "b. 1939"},
-        {"n": "John Muir", "c": "Nature & Conservation", "o": "Scottish-American", "d": "1838\u20131914"},
-    ],
-    "fiction": [
-        {"n": "John Watson", "f": "Sherlock Holmes"},
-        {"n": "John McClane", "f": "Die Hard"},
-        {"n": "Jon Snow", "f": "Game of Thrones"},
-        {"n": "John Wick", "f": "John Wick films"},
-        {"n": "John Doe", "f": "The everyman of law and legend"},
-        {"n": "Long John Silver", "f": "Treasure Island"},
-    ],
-}
 
 
 def nz(v):
@@ -99,9 +64,6 @@ def nz(v):
 def load_books():
     books = {}
     for n in NAMES:
-        if n == "john":
-            books["john"] = dict(JOHN)
-            continue
         d = json.load(open(os.path.join(CONTENT, n + ".json"), encoding="utf-8"))
         num = d["numerology"]["number"]
         title = d["numerology"]["title"]
