@@ -423,11 +423,13 @@ def patch_index(books):
                         "ten famous bearers per name."},
         {"@context": "https://schema.org", "@type": "VideoObject",
          "name": "Name Fame — Turn the Pages",
-         "description": "A look inside the Name Fame illustrated keepsake collection "
-                        "and the book Name Fame: John — cover, pages and legends.",
+         "description": "One hundred Name Fame keepsake books land on a pile, then "
+                        "Name Fame: John is riffled from cover to back: symbols, ten legends "
+                        "and the page that waits for your story.",
          "thumbnailUrl": BASE_URL + "/images/video_poster.jpg",
          "contentUrl": BASE_URL + "/video/name-fame-john.mp4",
-         "uploadDate": "2026-09-29"},
+         "duration": "PT41S",
+         "uploadDate": "2026-10-02"},
         {"@context": "https://schema.org", "@type": "ItemList",
          "name": "The Name Fame Collection",
          "numberOfItems": n,
