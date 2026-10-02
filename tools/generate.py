@@ -428,7 +428,7 @@ def patch_index(books):
                         "and the page that waits for your story.",
          "thumbnailUrl": BASE_URL + "/images/video_poster.jpg",
          "contentUrl": BASE_URL + "/video/name-fame-john.mp4",
-         "duration": "PT41S",
+         "duration": "PT47S",
          "uploadDate": "2026-10-02"},
         {"@context": "https://schema.org", "@type": "ItemList",
          "name": "The Name Fame Collection",
